@@ -11,6 +11,19 @@ body {
     font-weight: 300;
 }
 
+h1, h2 {
+    text-transform: uppercase;
+    color: #042e7d;
+}
+
+h1 {
+    font-size: 300%;
+    text-decoration-style: double;
+}
+
+h2 {
+    font-size: 150%;
+}
 
 /* navigation */
 
@@ -67,4 +80,10 @@ body {
 #header-logo img {
     width: 100%;
     object-fit: contain;
+    clear: both;
+}
+
+#header-logo h1 {
+    text-align: center;
+    clear: both;
 }
