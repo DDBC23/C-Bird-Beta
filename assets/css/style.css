@@ -99,6 +99,7 @@ a {
 #job-categories {
     display: table;
     clear: both;
+    padding-bottom: 200px;
 }
 
 .job-category-column {
@@ -126,4 +127,22 @@ a {
 
 #job-category, p {
     padding: 0 2.5%;
+}
+
+/* recognition and quote */
+
+#recognized-outer {
+    height: 400px;
+    margin: 50px 5%;
+    border: solid 2px #3a3a3a;
+}
+
+.recognized-inner {
+    align-content: center;
+}
+
+.recognized-inner, img {
+    max-height: 500px;
+    max-width: 500px;
+    margin: 0 auto;
 }
