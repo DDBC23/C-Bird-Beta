@@ -9,20 +9,23 @@
 body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
+    font-size: 100%;
+    color: #3a3a3a;
 }
 
 h1, h2 {
     text-transform: uppercase;
     color: #042e7d;
+    font-weight: 800;
 }
 
 h1 {
-    font-size: 300%;
-    text-decoration-style: double;
+    font-size: 350%;
 }
 
 h2 {
-    font-size: 150%;
+    font-size: 200%;
+    border-bottom: #042e7d solid 3px;
 }
 
 /* navigation */
@@ -44,12 +47,12 @@ h2 {
     position: static;
 }
 
-.menu a {
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.menu a:hover {
+a:hover {
     border-bottom: solid 1px;
     padding: .5em 1em;
     overflow: hidden;
@@ -75,15 +78,29 @@ h2 {
     height: 500px;
     max-width: 750px;
     margin: 0 auto;
+    padding-bottom: 10em;
 }
 
 #header-logo img {
     width: 100%;
+    padding-left: 25px;
     object-fit: contain;
     clear: both;
 }
 
 #header-logo h1 {
     text-align: center;
+    clear: both;
+}
+
+#job-categories {
+    padding: 0 15%;
+    text-align: center;
+}
+
+#job-categories div {
+    padding: 5em 1em;
+    display: inline-block;
+    width: 25%;
     clear: both;
 }
