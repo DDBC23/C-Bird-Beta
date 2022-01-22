@@ -97,9 +97,8 @@ a {
 }
 
 #job-categories {
-    display: table;
     clear: both;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 .job-category-column {
@@ -137,12 +136,13 @@ a {
     border: solid 2px #3a3a3a;
 }
 
-.recognized-inner {
-    align-content: center;
+.recognized-logo {
+    display: flex;
+    justify-content: center;
 }
 
-.recognized-inner, img {
-    max-height: 500px;
-    max-width: 500px;
-    margin: 0 auto;
+.recognized-logo a img {
+    height: 300px;
 }
+
+
