@@ -30,6 +30,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 150%;
+}
+
 /* navigation */
 
 .menu ul {
@@ -80,7 +84,7 @@ a {
     height: 500px;
     max-width: 750px;
     margin: 0 auto;
-    padding-bottom: 10em;
+    padding-bottom: 200px;
 }
 
 #header-logo img {
@@ -93,18 +97,12 @@ a {
 #header-logo h1 {
     text-align: center;
     clear: both;
-    vertical-align: 0px;
-}
-
-#job-categories {
-    clear: both;
-    padding-bottom: 150px;
 }
 
 .job-category-column {
     float: left;
     width: 27.5%;
-    padding: 5em 2.5%;
+    padding: 100px 2.5% 200px;
     text-align: center;
 }
 
@@ -128,11 +126,11 @@ a {
     padding: 0 2.5%;
 }
 
-/* recognition and quote */
+/* recognition  */
 
 #recognized-outer {
     height: 400px;
-    margin: 50px 5%;
+    margin: 100px 5% 200px;
     border: solid 2px #3a3a3a;
 }
 
@@ -145,9 +143,36 @@ a {
     height: 300px;
 }
 
+/* c-bird essence */
+
+#c-bird-essence img {
+    padding: 0 18.5%;
+}
+
 #client-quote {
-    font-size: 150%;
     text-align: center;
-    margin: 75px 20%;
+    margin: 25px 20% 200px;
+}
+
+/* c-bird in action */
+
+#project-gallery-header {
+    margin: 100px 0 0px;
+    text-align: center;
+}
+
+#project-gallery-outer {
+    margin: 0 10%;
+}
+
+.project-gallery-column {
+    display: flex;
+    justify-content: center;
+}
+
+.project-gallery-column img {
+    width: 25%;
+    height: 300px;
+    padding: 20px;
 }
 
