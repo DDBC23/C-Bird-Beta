@@ -180,12 +180,12 @@ a {
 
 #global-work-home {
     width: 80%;
-    height: 600px;
     margin: 100px 10%;
+    height: 700px;
 }
 
 #global-work-image {
-    background-image: url('../images/c-bird-essence-placeholder.jpg') no-repeat center center;
-    height: 100%;
-    background-color: #3a3a3a;
+    background-image: url("assets/images/working-global.png") no-repeat center center;
+    height: auto;
+    width: 80%;
 }
