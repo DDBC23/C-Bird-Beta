@@ -177,3 +177,15 @@ a {
     padding: 15px 2.5%;
 }
 
+/* global work locations */
+
+#global-work-home {
+    width: 100%;
+    height: 600px;
+    margin: 0 10% 100px 10%;
+}
+
+#global-work-image {
+    background-image: url('../images/working-global.png') no-repeat center center;
+    width: 100%;
+}
