@@ -179,15 +179,6 @@ a {
 /* global work locations */
 
 #global-work-home {
-<<<<<<< HEAD
-    width: 100%;
-    height: 600px;
-    margin: 0 10% 100px 10%;
-}
-
-#global-work-image {
-    width: 100%;
-=======
     width: 80%;
     height: 600px;
     margin: 100px 10%;
@@ -197,5 +188,4 @@ a {
     background-image: url('../images/c-bird-essence-placeholder.jpg') no-repeat center center;
     height: 100%;
     background-color: #3a3a3a;
->>>>>>> e731dd1
 }
