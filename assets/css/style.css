@@ -100,6 +100,7 @@ a {
 }
 
 .job-category-column {
+    vertical-align: 0;
     float: left;
     width: 27.5%;
     padding: 100px 2.5% 200px;
@@ -162,7 +163,7 @@ a {
 }
 
 #project-gallery-outer {
-    margin: 0 10%;
+    margin: 30px 10% 0;
 }
 
 .project-gallery-column {
@@ -172,7 +173,7 @@ a {
 
 .project-gallery-column img {
     width: 25%;
-    height: 300px;
-    padding: 20px;
+    height: 350px;
+    padding: 15px 2.5%;
 }
 
