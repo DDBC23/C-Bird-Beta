@@ -181,11 +181,14 @@ a {
 #global-work-home {
     width: 80%;
     margin: 100px 10%;
-    height: 700px;
 }
 
 #global-work-image {
-    background-image: url('..assets/images/working-global.png') no-repeat center center;
-    height: 500px;
-    width: 80%;
+    background-image: url('../images/working-global.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
 }
+
+/* footer */
+
