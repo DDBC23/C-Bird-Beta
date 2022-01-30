@@ -116,7 +116,7 @@ a {
     padding-bottom: 20px;
 }
 
-.job-category-column h3:hover {
+.job-category-column a:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-thickness: 2px;
