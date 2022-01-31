@@ -35,7 +35,7 @@ h3 {
 }
 
 small {
-    font-size: 70%;
+    font-size: 60%;
 }
 
 /* navigation */
@@ -105,7 +105,7 @@ a {
     vertical-align: 0;
     float: left;
     width: 27.5%;
-    padding: 50px 2.5% 100px;
+    padding: 25px 2.5% 100px;
     text-align: center;
 }
 
@@ -133,7 +133,7 @@ a {
 
 #recognized-outer {
     height: 400px;
-    margin: 50px 5% 50px;
+    margin: 50px 5% 0;
     /* border: solid 2px #3a3a3a; */
 }
 
@@ -143,6 +143,8 @@ a {
 }
 
 .recognized-logo a img {
+    margin-top: -50px;
+    overflow: hidden;
     height: 300px;
 }
 
@@ -237,14 +239,14 @@ a {
 #footer-logo-bg {
     margin: 5px 0;
     background-color: #d0d2db;
-    border: 1 px #d0d2db;
+    border: 1px #d0d2db;
     border-radius: 50%;
     height: 90px;
     width: 90px;
 }
 
 #footer-logo {
-    margin: 20px 0 20px 5px;
+    padding: 20px 0 10px 2px;
     height: 60px;
     object-fit: cover;
 }
