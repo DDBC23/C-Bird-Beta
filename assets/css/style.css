@@ -110,18 +110,18 @@ a {
 }
 
 #home-brochure {
-    display: block;
-    margin: 25px 0 50px;
+    padding-left: 38.5%;
+    margin: 25px auto 50px;
 }
 
 #home-brochure a {
-    display: block;
     height: 75px;
     text-transform: uppercase;
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
     text-align: center;
     color: white;
+    line-height: 35px;
 }
 
 /* job categories */
