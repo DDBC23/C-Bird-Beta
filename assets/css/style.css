@@ -40,7 +40,7 @@ small {
 
 .button {
     display: block;
-    border: 4px double rgb(204, 148, 115);
+    border: 4px solid rgb(204, 148, 115);
     border-radius: 10%;
     background-color: rgb(218, 93, 10);
     width: 150px;
@@ -111,7 +111,7 @@ a {
 
 #home-brochure {
     padding-left: 38.5%;
-    margin: 25px auto 50px;
+    margin: 25px auto 75px;
 }
 
 #home-brochure a {
