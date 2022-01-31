@@ -15,45 +15,43 @@
 
 <body>
     <header>
-        <div id="home-menu">
+        <div class="header-menu">
             <nav class="menu">
                 <ul>
                     <li>
-                        <a href="index.html" class="active">Home</a>
+                        <a href="index.html" aria-label="Go to Home page" class="active">Home</a>
                     </li>
                     <li>
-                        <a href="#">UTM Hull Gauging</a>
+                        <a href="#" aria-label="Go to UTM Hull Gauging page">UTM Hull Gauging</a>
                     </li>
                     <li>
-                        <a href="#">Close-up Survey</a>
+                        <a href="#" aria-label="Go to Close-up Survey page">Close-up Survey</a>
                     </li>
                     <li>
-                        <a href="#">Consultancy</a>
+                        <a href="#" aria-label="Go to Consultancy page">Consultancy</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" aria-label="Go to About page">About</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#" aria-label="Go to Contact page">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="header-logo">
-        <div>
-            <img src="/assets/images/c-bird-logo.png" alt="C-Bird Logo">
-        </div>
-        <div>
-            <h1>Reimagining asset integrity</h1>
-        </div>
+    <section id="c-bird-home">
+        <img src="/assets/images/c-bird-logo.png" alt="C-Bird Logo">
+        <h1>Reimagining asset integrity</h1>
+        <button id="home-brochure">Download Brochure</button>
     </section>
     <section>
         <h2>The world's only provider of drone-based, Class-approved hull gauging and close-up survey</h2>
         <div>
             <div class="job-category-column">
                 <a href="#">
-                    <img src="assets/images/hull-gauging.jpg" alt="Picture of hull gauging process">
+                    <img src="assets/images/hull-gauging.jpg" title="Go to UTM Hull Gauging page"
+                        alt="Picture of hull gauging process">
                     <h3>Hull Gauging</h3>
                 </a>
                 <p>
@@ -65,7 +63,8 @@
             </div>
             <div class="job-category-column">
                 <a href="#">
-                    <img src="assets/images/close-up-survey.jpg" alt="Close-up of the inside of a hull">
+                    <img src="assets/images/close-up-survey.jpg" title="Go to Close-up Survey page"
+                        alt="Close-up of the inside of a hull">
                     <h3>Close-up Survey</h3>
                 </a>
                 <p>
@@ -78,7 +77,8 @@
             </div>
             <div class="job-category-column">
                 <a href="#">
-                    <img src="assets/images/consultancy.jpg" alt="Workers gathered for consultation inside hull">
+                    <img src="assets/images/consultancy.jpg" title="Go to Consultancy page"
+                        alt="Workers gathered for consultation inside hull">
                     <h3>Consultancy</h3>
                 </a>
                 <p>
@@ -95,7 +95,9 @@
         <h2>C-Bird is the recognized remote inspection and drone hull gauging specialist for:</h2>
         <div id="recognized-outer">
             <div class="recognized-logo">
-                <a id="abs-logo" href="https://ww2.eagle.org/en.html" target="_blank" rel="external">
+                <a id="abs-logo" href="https://ww2.eagle.org/en.html"
+                    title="Open American Bureau of Shipping site in new tab"
+                    aria-label="Open American Bureau of Shipping site in new tab" target="_blank" rel="external">
                     <img src="/assets/images/abs-logo.jpg" alt="American Bureau of Shipping logo">
                 </a>
             </div>
@@ -141,7 +143,7 @@
         <div id="global-work-image"></div>
     </section>
     <footer>
-        <div id="footer-section">
+        <div class="footer-section">
             <nav class="footer-menu">
                 <ul>
                     <li>
@@ -150,10 +152,11 @@
                         </div>
                     </li>
                     <li id="footer-linkedin">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Open C-Bird Linkedin page in new tab"><i
+                                class="fab fa-linkedin"></i></a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#" aria-label="Go to Contact page">Contact</a>
                     </li>
                     <li><small>© 2022 C-Bird LTD<br>marine@c-bird.com<br>All Right Reserved</small></li>
                 </ul>

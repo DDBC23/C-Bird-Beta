@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 500;
     font-size: 100%;
     color: #3a3a3a;
@@ -38,7 +38,24 @@ small {
     font-size: 60%;
 }
 
+button {
+    border: 4px double rgb(204, 148, 115);
+    border-radius: 10%;
+    background-color: rgb(218, 93, 10);
+    color: white;
+    width: 150px;
+    height: 75px;
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+}
+
 /* navigation */
+
+.header-menu {
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 150px;
+}
 
 .menu ul {
     color: #d0d2db;
@@ -76,21 +93,13 @@ a {
 
 /* home page */
 
-#home-menu {
-    background-color: #3a3a3a;
-    width: 100%;
-    height: 150px;
-}
-
-#header-logo {
-    justify-content: center;
-    height: 500px;
+#c-bird-home {
     max-width: 750px;
     margin: 0 auto;
     padding-bottom: 150px;
 }
 
-#header-logo img {
+#c-bird-home img {
     padding-top: 25px;
     height: 350px;
     width: 100%;
@@ -98,10 +107,17 @@ a {
     clear: both;
 }
 
-#header-logo h1 {
+#c-bird-home h1 {
     text-align: center;
     clear: both;
 }
+
+#home-brochure {
+    display: block;
+    margin: 25px auto 0 auto;
+}
+
+/* job categories */
 
 .job-category-column {
     vertical-align: 0;
@@ -205,7 +221,7 @@ a {
 
 /* footer */
 
-#footer-section {
+.footer-section {
     background-color: #3a3a3a;
     width: 100%;
     height: 100px;
