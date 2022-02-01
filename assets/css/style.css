@@ -110,7 +110,6 @@ a {
 }
 
 #c-bird-home a {
-    height: 75px;
     text-transform: uppercase;
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
@@ -307,7 +306,6 @@ a {
 
 #hull-gauging-heading a {
     margin: 25px auto 75px;
-    height: 75px;
     text-transform: uppercase;
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
@@ -332,11 +330,42 @@ a {
 
 #why-c-bird a {
     margin: 25px auto 75px;
-    height: 75px;
     text-transform: uppercase;
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
     text-align: center;
     color: white;
     line-height: 35px;
+}
+
+/* technology */
+
+#technology {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#technology h4 {
+    margin: 25px auto 25px;
+}
+
+#sign-up-outer {
+    margin: 0 auto 25px;
+    width: 250px;
+    border: 3px solid #042e7d;
+    border-radius: 10%;
+}
+
+#sign-up-button {
+    height: 200px;
+    width: 200px;
+}
+
+#sign-up-button img {
+    height: 150px;
+}
+
+#sign-up-button h3 {
+    color: #042e7d;
+    text-transform: uppercase;
 }
