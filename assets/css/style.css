@@ -461,7 +461,7 @@ a {
     display: inline-block;
     text-align: center;
     width: 40%;
-    margin: 0 0 50px 7.5%;
+    margin: 0 0 50px 6.5%;
     height: 600px;
 }
 
@@ -490,6 +490,6 @@ a {
     font-weight: 600;
     text-align: center;
     color: white;
-    line-height: 75px;
+    line-height: 70px;
     letter-spacing: 1px;
 }
