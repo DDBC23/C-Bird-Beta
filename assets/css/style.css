@@ -149,7 +149,8 @@ a {
 }
 
 #job-category, p {
-    padding: 0 2.5%;
+    width: 90%;
+    padding-left: 5%;
 }
 
 /* recognition  */
@@ -157,7 +158,6 @@ a {
 #recognized-outer {
     height: 300px;
     margin: 50px 5% 0;
-    /* border: solid 2px #3a3a3a; */
 }
 
 .recognized-logo {
