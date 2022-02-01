@@ -401,3 +401,35 @@ a {
     width: 50%;
     margin: 0 auto 75px;
 }
+
+/* platforms and solutions */
+
+#platforms-and-solutions {
+    width: 100%;
+    text-align: center;
+}
+
+#platforms-and-solutions h3 {
+    margin: 25px auto 0;
+    width: 60%;
+}
+
+#platforms-and-solutions img {
+    display: block;
+    clear: both;
+    height: 250px;
+    margin: 25px auto;
+    padding-right: 60px;
+}
+
+.solution-category {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 28%;
+    margin-bottom: 75px;
+}
+
+.solution-category p {
+    margin: 20px 0;
+}
