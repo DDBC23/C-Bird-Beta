@@ -132,13 +132,14 @@ a {
     width: 27.5%;
     padding: 25px 2.5% 0px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 .job-category-column img {
     width: 400px;
     height: 300px;
     margin-bottom: 20px;
+    border: 3px solid #d0d2db;
 }
 
 .job-category-column h3 {
@@ -172,6 +173,7 @@ a {
     margin-top: -25px;
     overflow: hidden;
     height: 200px;
+    border: 3px solid #d0d2db;
 }
 
 /* c-bird essence */
@@ -210,14 +212,15 @@ a {
 .project-gallery-column img {
     width: 25%;
     height: 350px;
-    padding: 15px 2.5%;
+    margin: 15px 2.5%;
+    border: 3px solid #d0d2db;
 }
 
 /* global work locations */
 
 #global-work-home {
     width: 80%;
-    margin: 100px 10%;
+    margin: 50px 10% 50px;
 }
 
 #global-work-image {
@@ -276,4 +279,67 @@ a {
     padding: 20px 0 10px 2px;
     height: 60px;
     object-fit: cover;
+}
+
+/* utm hull gauging page */
+
+#hull-gauging-heading {
+    width: 100%;
+    text-align: center;
+}
+
+#hull-gauging-heading h1 {
+    margin: 50px 0;
+}
+
+#hull-gauging-heading h2 {
+    margin-bottom: 25px;
+}
+
+#hull-gauging-heading img {
+    height: 400px;
+    margin-bottom: 25px;
+    border: 3px solid #d0d2db;
+}
+
+#hull-gauging-heading h3 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#hull-gauging-heading a {
+    margin: 25px auto 75px;
+    height: 75px;
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+}
+
+/* why c-bird */
+
+#why-c-bird ul {
+    text-align: center;
+    margin: 25px auto 25px;
+    line-height: 60px;
+}
+
+#why-c-bird i {
+    font-size: 150%;
+    vertical-align: sub;
+    color: #042e7d;
+}
+
+#why-c-bird a {
+    margin: 25px auto 75px;
+    height: 75px;
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    line-height: 35px;
 }
