@@ -258,6 +258,13 @@ a {
     margin: -1em;
 }
 
+#footer-linkedin a:hover {
+    border-bottom: solid 1px;
+    padding: .25em 1em;
+    overflow: hidden;
+    margin: 1em;
+}
+
 #footer-linkedin {
     font-size: 150%;
 }
@@ -265,7 +272,6 @@ a {
 #footer-logo-bg {
     margin: 5px 0;
     background-color: #d0d2db;
-    border: 1px #d0d2db;
     border-radius: 50%;
     height: 90px;
     width: 90px;
@@ -368,4 +374,19 @@ a {
 #sign-up-button h3 {
     color: #042e7d;
     text-transform: uppercase;
+}
+
+/* close-up survey page */
+
+#survey-heading {
+    width: 100%;
+    text-align: center;
+}
+
+#survey-heading h1 {
+    margin: 50px 0;
+}
+
+#survey-heading h2 {
+    margin-bottom: 25px;
 }
