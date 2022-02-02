@@ -6,6 +6,10 @@
     border: none;  
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
@@ -380,6 +384,11 @@ a {
     text-transform: uppercase;
 }
 
+#nda {
+    border-bottom: #3a3a3a double 5px;
+    margin: 0 24%;
+}
+
 /* close-up survey page */
 
 #survey-heading {
@@ -456,7 +465,7 @@ a {
 
 #consultancy-heading h4 {
     width: 50%;
-    margin: 20px auto 75px;
+    margin: 20px auto 0;
 }
 
 /* consultancy categories */
@@ -466,7 +475,7 @@ a {
     display: inline-block;
     text-align: center;
     width: 40%;
-    margin: 0 0 50px 6.5%;
+    margin: 25px 0 50px 6.5%;
     height: 600px;
 }
 
@@ -502,6 +511,70 @@ a {
 /* contact page */
 
 #contact-heading {
-    text-align: center;
     padding-top: 100px;
+}
+
+#contact-heading h1, h3 {
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* contact form */
+
+#contact-form {
+    width: 60%;
+    margin: 25px auto;
+}
+
+#contact-form label {
+    font-weight: 600;
+}
+
+#contact-form input {
+    margin: 10px 0 20px;
+}
+
+#contact-form textarea {
+    margin: 10px 0 20px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-text-input {
+    /* background-color: #d0d2db; */
+    border: 3px groove #d0d2db;
+    line-height: 25px;
+    width: 100%;
+    padding: 0 5px;
+}
+
+#form-submit {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+/* founders section */
+
+#founders {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.founders-column h3 {
+    color: #042e7d;
+    margin-bottom: 10px;
+}
+
+.founders-column {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    margin: 25px 0 75px;
 }
