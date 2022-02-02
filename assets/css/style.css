@@ -46,6 +46,10 @@ h3 {
     font-size: 150%;
 }
 
+h4 {
+    font-size: 120%;
+}
+
 small {
     font-size: 60%;
 }
@@ -194,7 +198,7 @@ a {
 
 #client-quote {
     text-align: center;
-    margin: 25px 19% 75px;
+    margin: 25px 25% 75px;
 }
 
 /* c-bird in action */
@@ -312,8 +316,8 @@ a {
     border: 3px solid #d0d2db;
 }
 
-#hull-gauging-heading h3 {
-    width: 50%;
+#hull-gauging-heading h4 {
+    width: 40%;
     text-align: center;
     margin: 0 auto;
 }
@@ -410,9 +414,9 @@ a {
     border: 3px solid #d0d2db;
 }
 
-#survey-heading h3 {
-    width: 50%;
-    margin: 0 auto 75px;
+#survey-heading h4 {
+    width: 42.5%;
+    margin: 0 auto 25px;
 }
 
 /* platforms and solutions */
@@ -422,9 +426,9 @@ a {
     text-align: center;
 }
 
-#platforms-and-solutions h3 {
+#platforms-and-solutions h4 {
     margin: 25px auto 0;
-    width: 60%;
+    width: 50%;
 }
 
 #platforms-and-solutions img {
@@ -602,7 +606,7 @@ a {
 
 #track-record ul {
     text-align: center;
-    margin: 25px auto 25px;
+    margin: 25px auto 75px;
     line-height: 60px;
 }
 
