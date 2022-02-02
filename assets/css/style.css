@@ -335,6 +335,8 @@ a {
 /* why c-bird */
 
 #why-c-bird ul {
+    font-size: 150%;
+    font-weight: 800;
     text-align: center;
     margin: 25px auto 25px;
     line-height: 60px;
@@ -591,13 +593,13 @@ a {
     padding-bottom: 25px;
 }
 
-#linkedin:hover {
+.linkedin:hover {
     border-bottom: 1px solid #042e7d;
     padding: 0 0.5em;
     overflow: hidden;
 }
 
-#linkedin {
+.linkedin {
     color: #042e7d;
     margin: 25px 0 75px;
     font-size: 250%;
@@ -606,6 +608,8 @@ a {
 /* track record */
 
 #track-record ul {
+    font-size: 150%;
+    font-weight: 800;
     text-align: center;
     margin: 25px auto 75px;
     line-height: 60px;
