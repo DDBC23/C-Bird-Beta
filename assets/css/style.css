@@ -536,7 +536,7 @@ a {
 }
 
 #contact-form input {
-    margin: 10px 0 20px;
+    margin: 10px 5px 20px 0;
 }
 
 #contact-form textarea {
