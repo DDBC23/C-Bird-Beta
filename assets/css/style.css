@@ -63,6 +63,14 @@ small {
     height: 75px;
 }
 
+.button:hover {
+    border: 4px solid #d0d2db;
+    border-radius: 10%;
+    background-color: white;
+    width: 150px;
+    height: 75px;
+}
+
 /* navigation */
 
 .header-menu {
@@ -125,6 +133,16 @@ a {
     font-weight: 600;
     text-align: center;
     color: white;
+    line-height: 35px;
+    margin: 25px auto 75px;
+}
+
+#home-heading a:hover {
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(218, 93, 10);
     line-height: 35px;
     margin: 25px auto 75px;
 }
@@ -332,6 +350,16 @@ a {
     line-height: 35px;
 }
 
+#hull-gauging-heading a:hover {
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(218, 93, 10);
+    line-height: 35px;
+    margin: 25px auto 75px;
+}
+
 /* why c-bird */
 
 #why-c-bird ul {
@@ -356,6 +384,16 @@ a {
     text-align: center;
     color: white;
     line-height: 35px;
+}
+
+#why-c-bird a:hover {
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(218, 93, 10);
+    line-height: 35px;
+    margin: 25px auto 75px;
 }
 
 /* technology */
@@ -516,6 +554,16 @@ a {
     letter-spacing: 1px;
 }
 
+#quote-button:hover {
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(218, 93, 10);
+    line-height: 70px;
+    margin: 25px auto 75px;
+}
+
 /* contact page */
 
 #contact-heading {
@@ -562,6 +610,17 @@ a {
     font-size: 110%;
     text-align: center;
     color: white;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+#form-submit:hover {
+    text-transform: uppercase;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    font-size: 110%;
+    text-align: center;
+    color: rgb(218, 93, 10);
     line-height: 60px;
     letter-spacing: 1px;
 }
