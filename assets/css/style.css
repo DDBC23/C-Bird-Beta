@@ -439,8 +439,8 @@ a {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    width: 28%;
-    margin-bottom: 75px;
+    width: 30%;
+    margin: 0 2.5% 75px;
 }
 
 .solution-category h3 {
@@ -576,5 +576,38 @@ a {
     vertical-align: top;
     display: inline-block;
     width: 30%;
+    margin: 25px 2.5% 75px;
+}
+
+.founders-column img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding-bottom: 25px;
+}
+
+#linkedin:hover {
+    border-bottom: 1px solid #042e7d;
+    padding: 0 0.5em;
+    overflow: hidden;
+}
+
+#linkedin {
+    color: #042e7d;
     margin: 25px 0 75px;
+    font-size: 250%;
+}
+
+/* track record */
+
+#track-record ul {
+    text-align: center;
+    margin: 25px auto 25px;
+    line-height: 60px;
+}
+
+#track-record i {
+    font-size: 150%;
+    vertical-align: sub;
+    color: #042e7d;
 }
