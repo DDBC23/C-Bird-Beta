@@ -448,6 +448,7 @@ a {
 }
 
 .solution-category h3 {
+    margin-top: 25px;
     color: #042e7d;
 }
 
@@ -469,8 +470,9 @@ a {
 
 #consultancy-heading h4 {
     width: 50%;
-    margin: 20px auto 0;
+    margin: 25px auto;
 }
+
 
 /* consultancy categories */
 
@@ -485,7 +487,7 @@ a {
 
 .consultancy-category img {
     height: 400px;
-    margin: 0 auto 25px;
+    margin: 25px auto 25px;
     border: 3px solid #d0d2db;
     width: 600px;
 }
