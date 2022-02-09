@@ -102,16 +102,16 @@ a {
 
 .menu a:hover {
     border-bottom: solid 1px;
-    padding: .5em 1em;
+    padding: 8px 15px;
     overflow: hidden;
-    margin: -1em;
+    margin: -15px;
 }
 
 .active {
     border-bottom: solid 1px;
-    padding: .5em 1em;
+    padding: 8px 15px;
     overflow: hidden;
-    margin: -1em;
+    margin: -10px;
 }
 
 /* home page */
