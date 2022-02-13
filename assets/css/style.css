@@ -17,7 +17,7 @@ body {
     color: #3a3a3a;
 }
 
-#logo-heading {
+.heading-logo {
     margin-top: 25px;
     height: 350px;
     width: 100%;
@@ -127,8 +127,8 @@ a {
     margin: 0 auto;
 }
 
-#logo-heading {
-    height: 400px;
+#logo-heading-home {
+    height: 350px;
     width: 100%;
 
     /* animates home heading logo */
