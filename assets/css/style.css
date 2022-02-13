@@ -265,22 +265,8 @@ a {
 
 .project-gallery img {
     height: 350px;
-    margin: 15px 15px;
+    margin: 15px 0;
     border: 3px solid #d0d2db;
-}
-
-/* global work locations */
-
-#global-work-home {
-    width: 80%;
-    margin: 50px 10% 50px;
-}
-
-#global-work-image {
-    background-image: url('../images/working-global.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 800px;
 }
 
 /* footer */
