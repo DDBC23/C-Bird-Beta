@@ -63,7 +63,7 @@ small {
     display: block;
     border: 4px solid rgb(204, 148, 115);
     border-radius: 10%;
-    background-color: rgb(218, 93, 10);
+    background-color: rgb(255, 102, 0);
     width: 150px;
     height: 75px;
 }
@@ -176,7 +176,7 @@ a {
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
     text-align: center;
-    color: rgb(218, 93, 10);
+    color: rgb(255, 102, 0);
     line-height: 35px;
     margin: 25px auto 75px;
 }
@@ -245,7 +245,7 @@ a {
 #c-bird-essence {
     height: 650px;
     width: 62.5%;
-    margin: 0 auto;
+    margin: 25px auto 0;
 }
 
 #essence-image {
@@ -253,15 +253,14 @@ a {
 }
 
 #client-quote {
-    padding-right: 2.5%;
     width: 60%;
     text-align: center;
-    margin: 25px auto 75px;
+    margin: 25px 15% 75px;
 }
 
 /* c-bird in action */
 
-#c-bird-in-action h4 {
+#c-bird-in-action p {
     margin-top: 25px;
     text-align: center;
 }
@@ -385,7 +384,7 @@ a {
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
     text-align: center;
-    color: rgb(218, 93, 10);
+    color: rgb(255, 102, 0);
     line-height: 35px;
     margin: 25px auto 75px;
 }
@@ -421,7 +420,7 @@ a {
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
     text-align: center;
-    color: rgb(218, 93, 10);
+    color: rgb(255, 102, 0);
     line-height: 35px;
     margin: 25px auto 75px;
 }
@@ -589,7 +588,7 @@ a {
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
     text-align: center;
-    color: rgb(218, 93, 10);
+    color: rgb(255, 102, 0);
     line-height: 70px;
     margin: 25px auto 75px;
 }
@@ -650,7 +649,7 @@ a {
     font-weight: 600;
     font-size: 110%;
     text-align: center;
-    color: rgb(218, 93, 10);
+    color: rgb(255, 102, 0);
     line-height: 60px;
     letter-spacing: 1px;
 }
