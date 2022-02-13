@@ -189,7 +189,7 @@ a {
 }
 
 .job-category-column img {
-    width: 400px;
+    max-width: 400px;
     height: 300px;
     margin-bottom: 20px;
     border: 3px solid #d0d2db;
@@ -228,7 +228,6 @@ a {
     margin-top: -25px;
     overflow: hidden;
     height: 200px;
-    /* border: 3px solid #d0d2db; */
 }
 
 /* c-bird essence */
@@ -259,15 +258,14 @@ a {
     margin: 0 10% 75px;
 }
 
-.project-gallery-column {
-    display: flex;
-    justify-content: center;
+.project-gallery {
+    column-count:  3;
+    column-width: 30%;
 }
 
-.project-gallery-column img {
-    width: 25%;
+.project-gallery img {
     height: 350px;
-    margin: 15px 2.5%;
+    margin: 15px 15px;
     border: 3px solid #d0d2db;
 }
 
