@@ -122,6 +122,30 @@ a {
     margin: 0 auto;
 }
 
+#logo-heading {
+    height: 400px;
+    width: 100%;
+
+    /* animates home heading logo */
+
+    animation-name: logo-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes logo-zoom {
+    from {
+        transform: scale(1.25);
+        opacity: 0.25;
+    }
+
+    to {
+        transform: scale(1.0);
+        opacity: 1;
+    }
+}
+
 #home-heading h1 {
     text-align: center;
     clear: both;
