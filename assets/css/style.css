@@ -188,8 +188,13 @@ a {
     padding-left: 2.5%;
 }
 
+.category-image-container {
+    margin: 0 auto;
+    width: 400px;
+    overflow: hidden;
+}
+
 .job-category-column img {
-    max-width: 400px;
     height: 300px;
     margin-bottom: 20px;
     border: 3px solid #d0d2db;
