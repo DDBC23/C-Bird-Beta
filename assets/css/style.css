@@ -243,12 +243,12 @@ a {
 /* c-bird essence */
 
 #c-bird-essence {
+    height: 650px;
     width: 62.5%;
     margin: 0 auto;
 }
 
 #essence-image {
-    height: 650px;
     overflow: hidden;
 }
 
