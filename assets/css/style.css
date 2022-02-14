@@ -497,7 +497,7 @@ p {
     border: 3px solid #d0d2db;
 }
 
-#survey-heading h4 {
+#survey-heading p {
     width: 42.5%;
     margin: 0 auto 25px;
 }
@@ -509,7 +509,7 @@ p {
     text-align: center;
 }
 
-#platforms-and-solutions h4 {
+#platforms-and-solutions .descriptor-text {
     margin: 25px auto 0;
     width: 50%;
 }
@@ -526,7 +526,7 @@ p {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    width: 30%;
+    width: 28%;
     margin: 0 2.5% 75px;
 }
 
