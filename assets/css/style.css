@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;  
+    border: none;
 }
 
 html {
@@ -25,7 +25,8 @@ body {
     clear: both;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-transform: uppercase;
     color: #042e7d;
     font-weight: 800;
@@ -220,7 +221,8 @@ a {
     text-decoration-thickness: 2px;
 }
 
-#job-category, p {
+#job-category,
+p {
     width: 90%;
     padding-left: 5%;
 }
@@ -613,7 +615,8 @@ a {
     padding-top: 100px;
 }
 
-#contact-heading h1, h3 {
+#contact-heading h1,
+h3 {
     text-align: center;
 }
 
