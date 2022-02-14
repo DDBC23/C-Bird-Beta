@@ -510,7 +510,7 @@ p {
     margin-bottom: 50px;
 }
 
-#consultancy-heading h4 {
+#consultancy-heading p {
     width: 50%;
     margin: 25px auto -25px;
 }
@@ -524,6 +524,7 @@ p {
 }
 
 .consultancy-category {
+    margin: 0 auto;
     display: block;
     text-align: center;
     height: 600px;
@@ -533,7 +534,7 @@ p {
 .consultancy-image-container {
     width: 500px;
     overflow: hidden;
-    margin: 25px auto 25px;
+    margin: 0 auto;
 }
 
 .consultancy-image-container img {
@@ -543,11 +544,13 @@ p {
 
 .consultancy-category h3 {
     color: #042e7d;
+    margin-bottom: 25px;
 }
 
 .consultancy-category p {
     width: 70%;
-    margin: 0 auto;
+    margin: 25px auto 50px;
+    padding-right: 5%;
 }
 
 /* quote button */
