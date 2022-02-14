@@ -353,6 +353,7 @@ p {
 }
 
 #hull-heading-image {
+    display: inline-block;
     height: 400px;
     border: 3px solid #d0d2db;
 }
@@ -440,26 +441,22 @@ p {
 
 #survey-heading {
     padding-top: 100px;
-    width: 100%;
     text-align: center;
-}
-
-#survey-heading h1 {
-    margin-bottom: 50px;
+    margin: 0 auto;
 }
 
 #survey-heading h2 {
-    margin-bottom: 25px;
+    margin: 50px 15% 25px;
 }
 
 #survey-heading-image {
+    display: inline-block;
     height: 400px;
     border: 3px solid #d0d2db;
 }
 
 #survey-heading p {
-    width: 42.5%;
-    margin: 0 auto 25px;
+    margin-bottom: 25px;
 }
 
 /* platforms and solutions */
@@ -514,23 +511,21 @@ p {
 #consultancy-heading p {
     font-size: 120%;
     width: 50%;
-    margin: 25px auto -25px;
+    margin: 25px auto;
 }
 
 
 /* consultancy categories */
 
 #consultancy-categories {
-    width: 100%;
     column-count: 2;
+    text-align: center;
 }
 
 .consultancy-category {
     margin: 0 auto;
     display: block;
-    text-align: center;
-    height: 600px;
-    padding-top: 50px;
+    height: 700px;
 }
 
 .consultancy-image-container {
