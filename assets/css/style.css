@@ -416,6 +416,10 @@ p {
     height: 150px;
 }
 
+#sign-up-button img:hover {
+    zoom: 110%;
+}
+
 #sign-up-button h3 {
     color: #042e7d;
     text-transform: uppercase;
@@ -508,26 +512,33 @@ p {
 
 #consultancy-heading h4 {
     width: 50%;
-    margin: 25px auto;
+    margin: 25px auto -25px;
 }
 
 
 /* consultancy categories */
 
-.consultancy-category {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 40%;
-    margin: 25px 0 50px 6.5%;
-    height: 600px;
+#consultancy-categories {
+    width: 100%;
+    column-count: 2;
 }
 
-.consultancy-category img {
-    height: 400px;
+.consultancy-category {
+    display: block;
+    text-align: center;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.consultancy-image-container {
+    width: 500px;
+    overflow: hidden;
     margin: 25px auto 25px;
+}
+
+.consultancy-image-container img {
+    height: 400px;
     border: 3px solid #d0d2db;
-    width: 600px;
 }
 
 .consultancy-category h3 {
@@ -535,8 +546,8 @@ p {
 }
 
 .consultancy-category p {
-    width: 85%;
-    padding-left: 7.5%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 /* quote button */
@@ -580,7 +591,6 @@ h3 {
 }
 
 .form-text-input {
-    /* background-color: #d0d2db; */
     border: 3px groove #d0d2db;
     line-height: 25px;
     width: 100%;
