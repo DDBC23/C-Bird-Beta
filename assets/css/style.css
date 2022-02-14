@@ -57,6 +57,7 @@ small {
 .descriptor-text {
     font-size: 120%;
     font-weight: 800;
+    padding-right: 5%;
 }
 
 .button {
@@ -365,7 +366,7 @@ a {
     border: 3px solid #d0d2db;
 }
 
-#hull-gauging-heading h4 {
+#hull-gauging-heading p {
     width: 40%;
     text-align: center;
     margin: 0 auto;
@@ -438,7 +439,7 @@ a {
     margin-bottom: 75px;
 }
 
-#technology h4 {
+#technology p {
     margin: 25px auto 25px;
 }
 
@@ -464,8 +465,13 @@ a {
 }
 
 #nda {
-    border-bottom: #3a3a3a double 5px;
-    margin: 0 24%;
+    width: 52.5%;
+    text-align: center;
+    text-decoration: underline double 3px;
+    text-underline-offset: 5px;
+    font-size: 150%;
+    font-weight: 800;
+    padding-right: 5%;
 }
 
 /* close-up survey page */
