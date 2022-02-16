@@ -17,14 +17,6 @@ body {
     color: #3a3a3a;
 }
 
-.heading-logo {
-    margin-top: 25px;
-    height: 350px;
-    width: 100%;
-    object-fit: contain;
-    clear: both;
-}
-
 h1,
 h2 {
     text-transform: uppercase;
@@ -53,6 +45,19 @@ h4 {
 
 small {
     font-size: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.heading-logo {
+    margin-top: 25px;
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+    clear: both;
 }
 
 .descriptor-text {
@@ -86,7 +91,7 @@ small {
 
 /* navigation */
 
-.header-menu {
+header {
     position: fixed;
     background-color: #3a3a3a;
     width: 100%;
@@ -94,7 +99,7 @@ small {
     z-index: 2;
 }
 
-.menu ul {
+header ul {
     color: #d0d2db;
     font-size: 120%;
     text-transform: uppercase;
@@ -105,18 +110,13 @@ small {
     z-index: 2;
 }
 
-.menu li {
+header li {
     display: inline-block;
     margin: 0 40px;
     z-index: 2;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.menu a:hover {
+header a:hover {
     border-bottom: solid 1px;
     padding: .5em 1em;
     overflow: hidden;
