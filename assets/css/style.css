@@ -55,7 +55,6 @@ a {
 .heading-logo {
     margin-top: 25px;
     height: 350px;
-    width: 100%;
     object-fit: contain;
     clear: both;
 }
@@ -141,7 +140,6 @@ header a:hover {
 }
 
 #home-heading img {
-    height: 350px;
     width: 100%;
 
     /* animates home heading logo */
@@ -260,22 +258,34 @@ p {
 }
 
 #project-gallery {
-    margin: 25px 5% 0;
+    margin: 25px auto 0;
+    width: 90%;
 }
 
-#project-gallery img {
-    margin: 0 auto 25px;
+.gallery-image {
+    margin-bottom: 10px;
     display: block;
-    height: 400px;
+    width: 100%;
     border: 3px solid #d0d2db;
 }
 
 .gallery-container {
-    column-count: 3;
+    column-count: 2;
+    display: flexbox;
+    justify-content: center;
 }
 
-.thin-gallery {
+.thin-gallery-container {
     column-count: 3;
+    display: flexbox;
+    justify-content: center;
+}
+
+.thin-gallery-image {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    border: 3px solid #d0d2db;
 }
 
 /* footer */
