@@ -280,7 +280,7 @@ p {
 
 /* footer */
 
-.footer-section {
+footer {
     margin-top: 75px;
     background-color: #3a3a3a;
     width: 100%;
@@ -288,7 +288,7 @@ p {
     box-sizing: content-box;
 }
 
-.footer-menu ul {
+footer ul {
     color: #d0d2db;
     font-size: 120%;
     text-transform: uppercase;
@@ -297,14 +297,14 @@ p {
     text-align: center;
 }
 
-.footer-menu li {
+footer li {
     vertical-align: middle;
     display: inline-block;
     width: 20%;
     margin-right: 2.5%;
 }
 
-.footer-menu a:hover {
+footer a:hover {
     border-bottom: solid 1px;
     padding: .5em 1em;
     overflow: hidden;
@@ -330,7 +330,7 @@ p {
     width: 90px;
 }
 
-#footer-logo {
+#footer-logo-bg img {
     padding: 20px 0 10px 2px;
     height: 60px;
     object-fit: cover;
