@@ -175,7 +175,7 @@ header a:hover {
 /* job categories */
 
 .job-categories {
-    column-count: 1;
+    column-count: 3;
     margin: 1.5625rem auto;
 }
 
@@ -237,22 +237,12 @@ p {
 /* c-bird essence */
 
 #c-bird-essence {
-    display: flexbox;
-    width: 75%;
-    margin: 1.5625rem auto 0;
+    margin-top: 1.5625rem;
 }
 
-#essence-outer {
-    display: flexbox;
-    width: 75%;
-    padding-right: 5.5%;
-    margin: 1.5625rem auto 0;
-}
-
-#c-bird-essence img {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
+#essence-outer img {
+    max-width: 100%;
+    margin-top: 1.5625rem;
 }
 
 #client-quote {
