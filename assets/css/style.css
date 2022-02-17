@@ -176,29 +176,29 @@ header a:hover {
 
 .job-categories {
     column-count: 3;
-    margin: 1.5625rem auto;
+    margin: 1.5625rem 5%;
+    box-sizing: border-box;
 }
 
 .job-column {
-    width: 25rem;
-    height: 40rem;
+    margin: 1.5625rem auto;
     display: block;
     text-align: center;
 }
 
 .category-image-container {
-    width: 100%;
-    height: 22.5rem;
     margin: 1.5625rem auto;
-    overflow: hidden;
+    contain: content;
 }
 
 .category-image-container img {
+    width: 100%;
     height: 100%;
     border: 0.1875rem solid #d0d2db;
 }
 
-.job-column h3 {
+.job-column .descriptor-text {
+    /* margin-top: 1.5625rem; */
     color: #042e7d;
 }
 
@@ -211,8 +211,7 @@ header a:hover {
 
 .job-column,
 p {
-    margin: 0 auto;
-    width: 82.5%;
+    margin: 0 2.5%;
 }
 
 /* recognition  */
@@ -253,27 +252,28 @@ p {
 
 #client-quote {
     width: 60%;
+    padding-left: 5%;
     text-align: center;
-    margin: 25px auto 4.6875rem;
+    margin: 1.5625rem auto 4.6875rem;
 }
 
 /* c-bird in action */
 
 #c-bird-in-action p {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     text-align: center;
 }
 
 #project-gallery {
-    margin: 25px auto 0;
+    margin: 1.5625rem auto 0;
     width: 90%;
 }
 
 .gallery-image {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     display: block;
     width: 100%;
-    border: 3px solid #d0d2db;
+    border: 0.1875rem solid #d0d2db;
 }
 
 .gallery-container {
@@ -292,7 +292,7 @@ p {
     display: block;
     width: 75%;
     margin: 0 auto;
-    border: 3px solid #d0d2db;
+    border: 0.1875rem solid #d0d2db;
 }
 
 /* footer */
@@ -301,7 +301,7 @@ footer {
     margin-top: 4.6875rem;
     background-color: #3a3a3a;
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
     box-sizing: content-box;
 }
 
@@ -340,16 +340,19 @@ footer a:hover {
 }
 
 #footer-logo-bg {
-    margin: 5px 0;
+    display: flexbox;
+    margin: 0.3125rem 0;
     background-color: #d0d2db;
     border-radius: 50%;
-    height: 90px;
-    width: 90px;
+    height: 5.625rem;
+    width: 5.625rem;
 }
 
 #footer-logo-bg img {
-    padding: 20px 0 10px 2px;
-    height: 60px;
+    display: flexbox;
+    padding: 1.25rem 0 0.625rem 0.125rem;
+    height: auto;
+    width: 100%;
     object-fit: cover;
 }
 
