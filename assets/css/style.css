@@ -236,13 +236,19 @@ p {
 
 /* c-bird essence */
 
-#c-bird-essence {
-    margin-top: 1.5625rem;
+#c-bird-essence h2 {
+    margin: 0 auto;
+}
+
+#essence-outer {
+    text-align: center;
+    margin: 0 5%;
 }
 
 #essence-outer img {
-    max-width: 100%;
     margin-top: 1.5625rem;
+    max-width: 100%;
+    height: auto;
 }
 
 #client-quote {
