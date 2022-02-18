@@ -64,7 +64,6 @@ ul {
 .descriptor-text {
     font-size: 130%;
     font-weight: 800;
-    padding-right: 5%;
 }
 
 .button {
@@ -169,26 +168,29 @@ header a:hover {
 
 #home-heading a {
     line-height: 2.1875em;
-    margin: 1.5625rem auto;
+    margin: 1.5625rem auto 3.125rem;
 }
 
 /* job categories */
 
 .job-categories {
-    column-count: 3;
-    margin: 1.5625rem 5%;
-    box-sizing: border-box;
+    width: 100%;
+    margin: 1.5625rem auto 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .job-column {
-    margin: 1.5625rem auto;
-    display: block;
     text-align: center;
+    width: 40%;
+    margin: 0 2.5%;
 }
 
 .category-image-container {
-    margin: 1.5625rem auto;
-    contain: content;
+    width: 100%;
+    height: 70%;
+    margin: 0.78125rem auto 0.78125rem;
 }
 
 .category-image-container img {
@@ -197,8 +199,7 @@ header a:hover {
     border: 0.1875rem solid #d0d2db;
 }
 
-.job-column .descriptor-text {
-    /* margin-top: 1.5625rem; */
+.job-column h3 {
     color: #042e7d;
 }
 
@@ -209,9 +210,8 @@ header a:hover {
     text-decoration-thickness: 0.125em;
 }
 
-.job-column,
-p {
-    margin: 0 2.5%;
+.job-column p {
+    margin: 0.78125rem 2.5% auto;
 }
 
 /* recognition  */
