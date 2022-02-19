@@ -58,7 +58,7 @@ ul {
     list-style: none;
 }
 
-/* site wide class rules */
+/* site wide class and id rules */
 
 #heading-logo {
     width: 100%;
@@ -123,7 +123,7 @@ ul {
     background-color: white;
 }
 
-/* header */
+/* nav header */
 
 header {
     font-size: 1.2rem;
@@ -166,7 +166,7 @@ header a:hover {
     z-index: 1;
 }
 
-/* footer */
+/* nav footer */
 
 footer {
     margin-top: 3.125rem;
@@ -229,7 +229,7 @@ footer a:hover {
     width: 100%;
 }
 
-/* home page */
+/* --home page-- */
 
 #home-logo {
     border: none;
@@ -274,6 +274,7 @@ footer a:hover {
 }
 
 .category-image-container {
+    object-fit: cover;
     width: 75%;
     height: 60%;
     margin: 0.78625rem auto;
@@ -282,7 +283,6 @@ footer a:hover {
 .category-image-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     border: 0.1875rem solid #d0d2db;
 }
 
@@ -375,7 +375,7 @@ footer a:hover {
     border: 0.1875rem solid #d0d2db;
 }
 
-/* utm hull gauging page */
+/* --utm hull gauging page-- */
 
 /* why c-bird */
 
@@ -445,10 +445,10 @@ footer a:hover {
     font-weight: 800;
 }
 
-/* close-up survey page */
+/* --close-up survey page-- */
 
 #survey-heading .descriptor-text {
-    margin-bottom: 1.5625rem;
+    margin: 0 auto 1.5625rem;
 }
 
 /* survey categories uses job category css */
@@ -465,49 +465,40 @@ footer a:hover {
     width: 50%;
 }
 
+#solution-image-container {
+    width: 60%;
+    height: 20%;
+    margin: 1.5625rem auto;
+}
+
 #platforms-and-solutions img {
+    width: 100%;
+    height: 100%;
+}
+
+#survey-solutions {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.solution-container {
     display: block;
-    clear: both;
-    height: 250px;
-    margin: 25px auto;
-    padding-right: 60px;
-}
-
-.solution-category {
     text-align: center;
-    vertical-align: top;
-    display: inline-block;
-    width: 28%;
-    margin: 0 2.5% 4.6875rem;
+    width: 45%;
 }
 
-.solution-category h3 {
-    margin-top: 25px;
+.solution-container h3 {
+    /* margin-top: 25px; */
     color: #042e7d;
 }
 
-.solution-category p {
-    margin: 20px 0;
+.solution-container p {
+    margin: 0 20%;
 }
 
-/* consultancy page */
-
-#consultancy-heading {
-    padding-top: 100px;
-    width: 100%;
-    text-align: center;
-}
-
-#consultancy-heading h1 {
-    margin-bottom: 50px;
-}
-
-#consultancy-heading p {
-    font-size: 120%;
-    width: 50%;
-    margin: 25px auto;
-}
-
+/* --consultancy page-- */
 
 /* consultancy categories */
 
@@ -652,7 +643,7 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1330px) {
-    
+
     .job-container {
         width: 50%;
     }
@@ -701,6 +692,10 @@ footer a:hover {
         height: 22.5rem;
     }
 
+    .category-image-container {
+        width: 60%;
+    }
+
     .gallery-image {
         width: 45%;
     }
@@ -726,6 +721,10 @@ footer a:hover {
         font-size: 1.25rem;
         text-decoration: underline double 0.1275rem;
         text-underline-offset: 0.15625rem;
+    }
+
+    .solution-container p {
+        margin: 0 7.5%;
     }
 
     footer ul {
@@ -765,7 +764,7 @@ footer a:hover {
 
     .job-container {
         width: 100%;
-        height: 27.5rem;
+        height: 25rem;
     }
 
     .descriptor-text {
@@ -785,6 +784,17 @@ footer a:hover {
         font-size: 1rem;
         text-decoration: underline double 0.1275rem;
         text-underline-offset: 0.15625rem;
+    }
+
+    .solution-container {
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin: 0.78625rem 0 0;
+    }
+
+    .solution-container p {
+        margin: 0 10%;
     }
 
     footer ul {
@@ -809,11 +819,29 @@ footer a:hover {
 
     .job-container {
         width: 100%;
-        height: 30rem;
+        height: 25rem;
+    }
+
+    .category-image-container {
+        height: 12.5rem;
     }
 
     #why-c-bird li {
         font-size: 0.9rem;
+    }
+
+    #platforms-and-solutions .descriptor-text {
+        margin: 1.5625rem auto 0;
+        width: 75%;
+    }
+
+    #solution-image-container {
+        width: 100%;
+        margin: 1.5625rem auto;
+    }
+
+    .solution-container p {
+        margin: 0 5%;
     }
 
     footer ul {
