@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display&display=swap');
 
+
+/* site wide rules */
+
 * {
     margin: 0;
     padding: 0;
@@ -175,43 +178,47 @@ header a:hover {
 
 .job-categories {
     width: 100%;
-    margin: 1.5625rem auto 0;
+    margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-.job-column {
+.job-container {
     text-align: center;
+    height: 40rem;
     width: 40%;
-    margin: 0 2.5%;
+    margin: 0 1.25%;
 }
 
 .category-image-container {
+    overflow: hidden;
     width: 100%;
-    height: 70%;
-    margin: 0.78125rem auto 0.78125rem;
+    height: 60%;
+    margin: 0.78625rem auto;
 }
 
 .category-image-container img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border: 0.1875rem solid #d0d2db;
 }
 
-.job-column h3 {
+.job-container h3 {
+    margin-top: 1.5625rem;
     color: #042e7d;
 }
 
-.job-column a:hover {
+.job-container a:hover {
     text-decoration-color: #042e7d;
     text-decoration: underline;
     text-underline-offset: 0.3125em;
     text-decoration-thickness: 0.125em;
 }
 
-.job-column p {
-    margin: 0.78125rem 2.5% auto;
+.job-container p {
+    margin: 0 2.5% 1.5625rem;
 }
 
 /* recognition  */
