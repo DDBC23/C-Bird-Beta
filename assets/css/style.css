@@ -221,12 +221,12 @@ header a:hover {
 /* recognition  */
 
 #recognized-outer {
-    margin: 1.5625rem auto;
+    margin: 0 auto 3.125rem;
     width: 90%;
 }
 
 #abs-outer {
-    display: flexbox;
+    display: flex;
     margin: 0 auto;
     width: 35%;
     text-align: center;
@@ -239,32 +239,25 @@ header a:hover {
 
 /* c-bird essence */
 
-#c-bird-essence h2 {
-    margin: 0 auto;
-}
-
 #essence-outer {
     text-align: center;
     margin: 0 5%;
 }
 
 #essence-outer img {
-    margin-top: 1.5625rem;
     max-width: 100%;
     height: auto;
 }
 
 #client-quote {
     width: 60%;
-    padding-left: 5%;
     text-align: center;
-    margin: 1.5625rem auto 4.6875rem;
+    margin: 1.5625rem auto 3.125rem;
 }
 
 /* c-bird in action */
 
 #c-bird-in-action p {
-    margin-top: 1.5625rem;
     text-align: center;
 }
 
@@ -273,28 +266,27 @@ header a:hover {
     width: 90%;
 }
 
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
 .gallery-image {
+    width: 40%;
     margin-bottom: 0.625rem;
-    display: block;
-    width: 100%;
     border: 0.1875rem solid #d0d2db;
 }
 
-.gallery-container {
-    column-count: 3;
-    display: flexbox;
-    justify-content: center;
-}
-
 .thin-gallery-container {
-    column-count: 3;
-    display: flexbox;
-    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0 2.65%;
 }
 
 .thin-gallery-image {
-    display: block;
-    width: 75%;
+    width: 25%;
     margin: 0 auto;
     border: 0.1875rem solid #d0d2db;
 }
@@ -302,27 +294,31 @@ header a:hover {
 /* footer */
 
 footer {
-    margin-top: 4.6875rem;
+    margin-top: 3.125rem;
     background-color: #3a3a3a;
     width: 100%;
     height: 6.25rem;
-    box-sizing: content-box;
-}
-
-footer ul {
-    color: #d0d2db;
-    font-size: 120%;
-    text-transform: uppercase;
-    width: 100%;
-    list-style: none;
     text-align: center;
 }
 
+footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #d0d2db;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    max-height: 6.25rem;
+    list-style: none;
+}
+
 footer li {
-    vertical-align: middle;
-    display: inline-block;
+    padding-top: 0.25%;
+    align-self: center;
+    height: 90%;
     width: 20%;
-    margin-right: 2.5%;
 }
 
 footer a:hover {
@@ -340,24 +336,22 @@ footer a:hover {
 }
 
 #footer-linkedin {
-    font-size: 150%;
+    font-size: 1.5em;
 }
 
 #footer-logo-bg {
-    display: flexbox;
-    margin: 0.3125rem 0;
+    overflow: hidden;
     background-color: #d0d2db;
     border-radius: 50%;
     height: 5.625rem;
-    width: 5.625rem;
+    max-width: 5.625rem;
+    margin: 0 auto;
 }
 
 #footer-logo-bg img {
-    display: flexbox;
     padding: 1.25rem 0 0.625rem 0.125rem;
     height: auto;
     width: 100%;
-    object-fit: cover;
 }
 
 /* utm hull gauging page */
