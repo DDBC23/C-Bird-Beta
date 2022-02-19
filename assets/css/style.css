@@ -33,7 +33,7 @@ h1 {
 h2 {
     font-size: 200%;
     border-bottom: #042e7d solid 3px;
-    margin: 0 15%;
+    margin: 1.5625rem 15%;
     text-align: center;
 }
 
@@ -178,35 +178,31 @@ header a:hover {
 
 .job-categories {
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
 .job-container {
+    display: block;
     text-align: center;
-    height: 40rem;
-    width: 40%;
-    margin: 0 1.25%;
+    width: 30%;
 }
 
 .category-image-container {
-    overflow: hidden;
-    width: 100%;
+    width: 75%;
     height: 60%;
     margin: 0.78625rem auto;
 }
 
 .category-image-container img {
-    object-fit: cover;
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border: 0.1875rem solid #d0d2db;
 }
 
 .job-container h3 {
-    margin-top: 1.5625rem;
     color: #042e7d;
 }
 
@@ -218,7 +214,8 @@ header a:hover {
 }
 
 .job-container p {
-    margin: 0 2.5% 1.5625rem;
+    margin: 0 5%;
+    line-height: 120%;
 }
 
 /* recognition  */
