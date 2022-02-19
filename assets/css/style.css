@@ -359,87 +359,93 @@ footer a:hover {
 /* utm hull gauging page */
 
 #hull-gauging-heading {
-    padding-top: 100px;
-    width: 100%;
+    display: flexbox;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding-top: 6.25rem;
+    width: 50%;
     text-align: center;
 }
 
 #hull-gauging-heading h1 {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 #hull-gauging-heading h2 {
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
 }
 
 #hull-heading-image {
-    display: inline-block;
-    height: 400px;
-    border: 3px solid #d0d2db;
+    display: flex;
+    margin: 0 auto;
+    max-height: 25rem;
+    width: 75%;
+    border: 0.1875em solid #d0d2db;
 }
 
 #hull-gauging-heading p {
-    width: 40%;
+    width: 70%;
     text-align: center;
     margin: 0 auto;
 }
 
 #hull-gauging-heading a {
-    margin: 25px auto 4.6875rem;
-    line-height: 35px;
+    margin: 1.5625rem auto 4.6875rem;
+    line-height: 2.1875rem;
 }
 
 /* why c-bird */
 
 #why-c-bird ul {
-    font-size: 150%;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
-    margin: 25px auto 25px;
-    line-height: 60px;
+    margin: 1.5625rem auto 1.5625rem;
+    line-height: 3.75rem;
 }
 
 #why-c-bird i {
-    font-size: 150%;
+    font-size: 1.5rem;
     vertical-align: sub;
     color: #042e7d;
 }
 
 #why-c-bird a {
-    margin: 25px auto 4.6875rem;
-    line-height: 35px;
+    margin: 1.5625rem auto 4.6875rem;
+    line-height: 2.1875rem;
 }
 
 /* technology */
 
 #technology {
     text-align: center;
-    margin-bottom: 4.6875rem;
+    margin-bottom: 3.125rem;
 }
 
 #technology p {
-    margin: 25px auto 25px;
+    margin: 1.5625rem auto 1.5625rem;
+    max-width: 80%;
 }
 
 #sign-up-outer {
-    margin: 0 auto 25px;
-    width: 250px;
-    border: 3px solid white;
+    margin: 0 auto 1.5625rem;
+    width: 15.625rem;
+    border: 0.1875rem solid white;
     border-radius: 10%;
 }
 
 #sign-up-outer:hover {
-    border: 3px solid #042e7d;
+    border: 0.1875rem solid #042e7d;
     border-radius: 10%;
 }
 
 #sign-up-button {
-    height: 200px;
-    width: 200px;
+    height: 12.5rem;
+    width: 12.5rem;
 }
 
 #sign-up-button img {
-    height: 150px;
+    height: 9.375rem;
 }
 
 #sign-up-button h3 {
@@ -450,17 +456,16 @@ footer a:hover {
 #nda {
     width: 52.5%;
     text-align: center;
-    text-decoration: underline double 3px;
-    text-underline-offset: 5px;
-    font-size: 150%;
+    text-decoration: underline double 0.1875rem;
+    text-underline-offset: 0.3125rem;
+    font-size: 1.5rem;
     font-weight: 800;
-    padding-right: 5%;
 }
 
 /* close-up survey page */
 
 #survey-heading {
-    padding-top: 100px;
+    padding-top: 6.25rem;
     text-align: center;
     margin: 0 auto;
 }
@@ -685,9 +690,21 @@ footer a:hover {
     #project-gallery {
         width: 100%;
     }
+
+    #hull-gauging-heading p {
+        width: 85%;
+    }
+
+    #hull-gauging-heading img {
+        width: 100%;
+    }
+
+    #nda {
+        width: 60%;
+    }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 900px) {
 
     header ul {
         font-size: 0.95rem;
@@ -722,6 +739,29 @@ footer a:hover {
         width: 30%;
     }
 
+    #hull-gauging-heading {
+        width: 65%;
+    }
+
+    #hull-gauging-heading p {
+        width: 85%;
+    }
+
+    #hull-gauging-heading img {
+        width: 90%;
+    }
+
+    #why-c-bird li {
+        line-height: 3rem;
+        font-size: 1.25rem;
+    }
+
+    #nda {
+        font-size: 1.25rem;
+        text-decoration: underline double 0.1275rem;
+        text-underline-offset: 0.15625rem;
+    }
+
     footer ul {
         padding-top: 0.5%
     }
@@ -730,7 +770,7 @@ footer a:hover {
 @media screen and (max-width: 650px) {
 
     h1 {
-        font-size: 2.75rem;
+        font-size: 2.5rem;
     }
 
     h2 {
@@ -770,12 +810,28 @@ footer a:hover {
         width: 47.5%;
     }
 
+    #why-c-bird li {
+        line-height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    #nda {
+        font-size: 1rem;
+        text-decoration: underline double 0.1275rem;
+        text-underline-offset: 0.15625rem;
+    }
+
     footer ul {
         padding-top: 0.75%;
     }
 }
 
 @media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
     header ul {
         font-size: 0.60rem;
         margin: 0;
@@ -792,6 +848,10 @@ footer a:hover {
     .job-container {
         width: 100%;
         height: 30rem;
+    }
+
+    #why-c-bird li {
+        font-size: 0.9rem;
     }
 
     footer ul {
