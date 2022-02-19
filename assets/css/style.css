@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display&display=swap');
 
 
-/* site wide rules */
+/* site wide element rules */
 
 * {
     margin: 0;
@@ -27,26 +27,26 @@ h2 {
 }
 
 h1 {
-    font-size: 350%;
+    font-size: 3.5rem;
 }
 
 h2 {
-    font-size: 200%;
+    font-size: 2rem;
     border-bottom: #042e7d solid 3px;
     margin: 1.5625rem 15%;
     text-align: center;
 }
 
 h3 {
-    font-size: 150%;
+    font-size: 1.5rem;
 }
 
 h4 {
-    font-size: 120%;
+    font-size: 1.2rem;
 }
 
 small {
-    font-size: 60%;
+    font-size: 0.6rem;
 }
 
 a {
@@ -58,6 +58,8 @@ ul {
     list-style: none;
 }
 
+/* site wide class rules */
+
 .heading-logo {
     margin-top: 1.5625rem;
     height: 21.875rem;
@@ -65,7 +67,7 @@ ul {
 }
 
 .descriptor-text {
-    font-size: 130%;
+    font-size: 1.3rem;
     font-weight: 800;
 }
 
@@ -92,10 +94,10 @@ ul {
     background-color: white;
 }
 
-/* navigation */
+/* header */
 
 header {
-    font-size: 120%;
+    font-size: 1.2rem;
     position: fixed;
     background-color: #3a3a3a;
     width: 100%;
@@ -133,6 +135,69 @@ header a:hover {
     overflow: hidden;
     margin: -1em;
     z-index: 1;
+}
+
+/* footer */
+
+footer {
+    margin-top: 3.125rem;
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 6.25rem;
+    text-align: center;
+}
+
+footer ul {
+    padding-top: 0.35%;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #d0d2db;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    max-height: 6.25rem;
+    list-style: none;
+}
+
+footer li {
+    height: 90%;
+    width: 20%;
+}
+
+footer a:hover {
+    border-bottom: solid 0.0625em;
+    padding: .5em 1em;
+    overflow: hidden;
+    margin: -1em;
+}
+
+#footer-linkedin a:hover {
+    border-bottom: solid 0.0625em;
+    padding: .25em 1em;
+    overflow: hidden;
+    margin: 1em;
+}
+
+#footer-linkedin {
+    font-size: 1.5em;
+}
+
+#footer-logo-bg {
+    display: flex;
+    overflow: hidden;
+    background-color: #d0d2db;
+    border-radius: 50%;
+    height: 5.625rem;
+    max-width: 5.625rem;
+    margin: 0 auto;
+}
+
+#footer-logo-bg img {
+    padding: 1.25rem 0 0.625rem 0.125rem;
+    height: auto;
+    width: 100%;
 }
 
 /* home page */
@@ -186,7 +251,7 @@ header a:hover {
 .job-container {
     display: block;
     text-align: center;
-    width: 30%;
+    width: 33%;
 }
 
 .category-image-container {
@@ -252,7 +317,7 @@ header a:hover {
 #client-quote {
     width: 60%;
     text-align: center;
-    margin: 1.5625rem auto 3.125rem;
+    margin: 1.5625rem auto;
 }
 
 /* c-bird in action */
@@ -289,69 +354,6 @@ header a:hover {
     width: 25%;
     margin: 0 auto;
     border: 0.1875rem solid #d0d2db;
-}
-
-/* footer */
-
-footer {
-    margin-top: 3.125rem;
-    background-color: #3a3a3a;
-    width: 100%;
-    height: 6.25rem;
-    text-align: center;
-}
-
-footer ul {
-    padding-top: 0.25%;
-    display: flex;
-    flex-flow: row nowrap;
-    flex-shrink: 1;
-    justify-content: space-evenly;
-    align-items: center;
-    color: #d0d2db;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    max-height: 6.25rem;
-    list-style: none;
-}
-
-footer li {
-    height: 90%;
-    width: 20%;
-}
-
-footer a:hover {
-    border-bottom: solid 0.0625em;
-    padding: .5em 1em;
-    overflow: hidden;
-    margin: -1em;
-}
-
-#footer-linkedin a:hover {
-    border-bottom: solid 0.0625em;
-    padding: .25em 1em;
-    overflow: hidden;
-    margin: 1em;
-}
-
-#footer-linkedin {
-    font-size: 1.5em;
-}
-
-#footer-logo-bg {
-    display: flex;
-    overflow: hidden;
-    background-color: #d0d2db;
-    border-radius: 50%;
-    height: 5.625rem;
-    max-width: 5.625rem;
-    margin: 0 auto;
-}
-
-#footer-logo-bg img {
-    padding: 1.25rem 0 0.625rem 0.125rem;
-    height: auto;
-    width: 100%;
 }
 
 /* utm hull gauging page */
@@ -673,4 +675,94 @@ footer a:hover {
     font-size: 150%;
     vertical-align: sub;
     color: #042e7d;
+}
+
+@media screen and (max-width: 1330px) {
+    .job-container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .descriptor-text {
+        font-size: 1.04rem
+    }
+
+    .job-container {
+        width: 80%;
+        height: 22.5rem;
+    }
+
+    footer ul {
+        padding-top: 0.5%
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 2.75rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    header {
+        height: 4.6875rem;
+    }
+    
+    header ul {
+        font-size: 0.8rem;
+    }
+
+    #home-heading {
+        padding-top: 3.25rem;
+    }
+
+    .descriptor-text {
+        font-size: 1rem;
+    }
+
+    footer ul {
+        padding-top: 0.75%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header ul {
+        font-size: 0.65rem;
+        margin: 0;
+    }
+
+    #home-heading {
+        padding-top: 1.75rem;
+    }
+
+    .job-container {
+        width: 100%;
+        height: 25rem;
+    }
+
+    footer ul {
+        font-size: 0.8rem;
+        padding-top: 1.5%;
+    }
+
+    #footer-logo-bg {
+        height: 80%;
+    }
+
+    footer small {
+        font-size: 0.4rem;
+    }
 }
