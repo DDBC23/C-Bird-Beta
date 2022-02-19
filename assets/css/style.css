@@ -302,6 +302,7 @@ footer {
 }
 
 footer ul {
+    padding-top: 0.25%;
     display: flex;
     flex-flow: row nowrap;
     flex-shrink: 1;
@@ -315,8 +316,6 @@ footer ul {
 }
 
 footer li {
-    padding-top: 0.25%;
-    align-self: center;
     height: 90%;
     width: 20%;
 }
@@ -340,6 +339,7 @@ footer a:hover {
 }
 
 #footer-logo-bg {
+    display: flex;
     overflow: hidden;
     background-color: #d0d2db;
     border-radius: 50%;
