@@ -681,6 +681,10 @@ footer a:hover {
     .job-container {
         width: 50%;
     }
+
+    #project-gallery {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 890px) {
@@ -708,6 +712,14 @@ footer a:hover {
     .job-container {
         width: 80%;
         height: 22.5rem;
+    }
+
+    .gallery-image {
+        width: 45%;
+    }
+
+    .thin-gallery-image {
+        width: 30%;
     }
 
     footer ul {
@@ -752,6 +764,10 @@ footer a:hover {
 
     .descriptor-text {
         font-size: 1rem;
+    }
+
+    .gallery-image {
+        width: 47.5%;
     }
 
     footer ul {
