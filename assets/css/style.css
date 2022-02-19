@@ -684,6 +684,10 @@ footer a:hover {
 }
 
 @media screen and (max-width: 890px) {
+
+    header ul {
+        font-size: 0.95rem;
+    }
     
     h2 {
         font-size: 1.6rem;
@@ -730,7 +734,7 @@ footer a:hover {
     }
     
     header ul {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     #home-heading {
@@ -757,7 +761,7 @@ footer a:hover {
 
 @media screen and (max-width: 400px) {
     header ul {
-        font-size: 0.65rem;
+        font-size: 0.60rem;
         margin: 0;
     }
 
