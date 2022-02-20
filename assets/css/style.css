@@ -97,7 +97,7 @@ ul {
 }
 
 .heading p {
-    width: 50%;
+    width: 47.5%;
     margin: 0 auto;
 }
 
@@ -665,6 +665,9 @@ footer a:hover {
     .heading img {
         height: 20rem;
     }
+
+    .heading p {
+        width: 50%;
 
     #nda {
         width: 60%;

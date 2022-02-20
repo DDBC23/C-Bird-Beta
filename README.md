@@ -20,7 +20,7 @@ This site has been created for the purposes of maintaining a web presence for C-
 
 - __Landing Page Heading__
 
- - The landing includes the C-Bird logo and a reactive 'download brochure' button that opens the pdf brochure in a separate tab.
+ - The landing includes the C-Bird logo, which is shown on all but the contact page, and a reactive 'download brochure' button that opens the pdf brochure in a separate tab.
 
  - This section introduces the site with a fade and zoom in animation for the company logo to grab the viewers attention and provides immediate access to C-Bird's brochure.
 
