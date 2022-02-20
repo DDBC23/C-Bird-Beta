@@ -215,6 +215,7 @@ footer a:hover {
 }
 
 #footer-logo-bg {
+    position: relative;
     display: flex;
     height: 5.625rem;
     margin: 0 auto;
@@ -882,7 +883,8 @@ footer a:hover {
         padding-top: 0.75%;
     }
 
-    #footer-logo-bg {
+    #footer-logo-bg img {
+        margin: auto;
         height: 4.21875rem;
 }
 
@@ -967,7 +969,7 @@ footer a:hover {
         padding-top: 1.5%;
     }
 
-    #footer-logo-bg {
+    #footer-logo-bg img {
         height: 3.375rem;
 }
 
