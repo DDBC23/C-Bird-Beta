@@ -521,7 +521,7 @@ footer a:hover {
 /* quote button */
 
 #quote-button {
-    margin: 0 auto;
+    margin: 3rem auto 0;
     line-height: 4.375em;
     letter-spacing: 0.0625em;
 }
@@ -659,7 +659,7 @@ footer a:hover {
     }
 
     .consultancy-image-container img {
-        height: 15rem;
+        height: 16.5rem;
     }
 
     .consultancy-container p {
@@ -667,7 +667,7 @@ footer a:hover {
     }
 
     #quote-button {
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
 
     .founder-description {
@@ -750,11 +750,11 @@ footer a:hover {
 
     .consultancy-container {
         width: 80%;
-        height: 27.5rem;
+        height: 30rem;
     }
 
     #quote-button {
-        margin-top: 0;
+        margin-top: 1.5625rem;
     }
 
     #contact-form {
