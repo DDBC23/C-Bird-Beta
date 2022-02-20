@@ -315,7 +315,7 @@ footer a:hover {
     text-align: center;
 }
 
-.recognized-logo {  
+.recognized-logo {
     display: block;
     width: 100%;
 }
@@ -689,7 +689,7 @@ footer a:hover {
     header ul {
         font-size: 0.95rem;
     }
-    
+
     h2 {
         font-size: 1.6rem;
     }
@@ -796,7 +796,7 @@ footer a:hover {
     header {
         height: 4.6875rem;
     }
-    
+
     header ul {
         font-size: 0.7rem;
     }
@@ -886,6 +886,7 @@ footer a:hover {
     #footer-logo-bg img {
         margin: auto;
         height: 4.21875rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -971,7 +972,7 @@ footer a:hover {
 
     #footer-logo-bg img {
         height: 3.375rem;
-}
+    }
 
     footer small {
         font-size: 0.45rem;
