@@ -75,7 +75,7 @@ ul {
     flex-flow: column wrap;
     margin: 0 auto;
     padding-top: 6.25rem;
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
 }
 
@@ -93,8 +93,13 @@ ul {
     display: flex;
     margin: 0 auto;
     max-height: 25rem;
-    width: 75%;
+    width: 50%;
     border: 0.1875em solid #d0d2db;
+}
+
+.heading p {
+    width: 50%;
+    margin: 0 auto;
 }
 
 /* job categories */
@@ -557,7 +562,8 @@ footer a:hover {
 }
 
 #contact-form {
-    margin-top: 1.5625rem;
+    width: 60%;
+    margin: 1.5625rem auto;
     text-align: left;
 }
 
@@ -657,12 +663,8 @@ footer a:hover {
         width: 100%;
     }
 
-    .heading {
-        width: 70%;
-    }
-
     .heading img {
-        width: 100%;
+        width: 50%;
     }
 
     #nda {
@@ -708,6 +710,14 @@ footer a:hover {
 
     .heading {
         width: 75%;
+    }
+
+    .heading img {
+        width: 70%;
+    }
+
+    .heading p {
+        width: 70%;
     }
 
     .category-image-container {
@@ -820,7 +830,6 @@ footer a:hover {
     }
 
     .heading {
-        width: 80%;
         padding-top: 3.25rem;
     }
 
