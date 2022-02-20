@@ -564,7 +564,11 @@ footer a:hover {
 }
 
 #contact-form input {
-    margin: 0.625rem 0 1.25rem;
+    margin: 0.625rem 0 1rem;
+}
+
+#contact-form .button {
+    margin-bottom: 0.56825rem;
 }
 
 #contact-form textarea {
