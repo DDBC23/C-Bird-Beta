@@ -92,8 +92,7 @@ ul {
 .heading img {
     display: flex;
     margin: 0 auto;
-    max-height: 25rem;
-    width: 50%;
+    height: 25rem;
     border: 0.1875em solid #d0d2db;
 }
 
@@ -664,7 +663,7 @@ footer a:hover {
     }
 
     .heading img {
-        width: 50%;
+        height: 20rem;
     }
 
     #nda {
@@ -713,7 +712,7 @@ footer a:hover {
     }
 
     .heading img {
-        width: 70%;
+        height: 15rem;
     }
 
     .heading p {
@@ -833,6 +832,10 @@ footer a:hover {
         padding-top: 3.25rem;
     }
 
+    .heading img {
+        height: 10.5rem;
+    }
+
     .button {
         width: 7.03125rem;
         height: 4.6875rem;
@@ -941,6 +944,10 @@ footer a:hover {
     .heading {
         width: 90%;
         padding-top: 3.25rem;
+    }
+
+    .heading img {
+        height: 9.5rem;
     }
 
     .job-container {
