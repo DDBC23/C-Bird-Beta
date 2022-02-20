@@ -32,7 +32,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    border-bottom: #042e7d solid 3px;
+    border-bottom: #042e7d solid 0.1875rem;
     margin: 1.5625rem 15%;
     text-align: center;
 }
@@ -46,7 +46,7 @@ h4 {
 }
 
 small {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 a {
@@ -275,16 +275,16 @@ footer a:hover {
 }
 
 .category-image-container {
-    object-fit: cover;
+    overflow: hidden;
     width: 75%;
-    height: 60%;
     margin: 0.78625rem auto;
 }
 
 .category-image-container img {
-    width: 100%;
-    height: 100%;
+    height: 18.75rem;
     border: 0.1875rem solid #d0d2db;
+    display: block;
+    margin: 0 auto;
 }
 
 .job-container h3 {
@@ -299,7 +299,7 @@ footer a:hover {
 }
 
 .job-container p {
-    margin: 0 5%;
+    margin: 0 5% 1.5625rem;
     line-height: 120%;
 }
 
@@ -378,22 +378,6 @@ footer a:hover {
 
 /* --utm hull gauging page-- */
 
-/* why c-bird */
-
-#why-c-bird ul {
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-align: center;
-    margin: 1.5625rem auto 1.5625rem;
-    line-height: 3.75rem;
-}
-
-#why-c-bird i {
-    font-size: 2rem;
-    vertical-align:text-bottom;
-    color: #042e7d;
-}
-
 #why-c-bird a {
     margin: 1.5625rem auto 4.6875rem;
     line-height: 2.1875rem;
@@ -452,18 +436,16 @@ footer a:hover {
     margin: 0 auto 1.5625rem;
 }
 
-/* survey categories uses job category css */
-
 /* platforms and solutions */
 
 #platforms-and-solutions {
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
     text-align: center;
 }
 
 #platforms-and-solutions .descriptor-text {
     margin: 1.5625rem auto 0;
-    width: 50%;
 }
 
 #solution-image-container {
@@ -521,15 +503,12 @@ footer a:hover {
 }
 
 .consultancy-image-container {
-    object-fit: cover;
     width: 75%;
-    height: 65%;
     margin: 0.78625rem auto;
 }
 
 .consultancy-image-container img {
-    width: 100%;
-    height: 100%;
+    height: 25rem;
     border: 0.1875rem solid #d0d2db;
 }
 
@@ -545,21 +524,23 @@ footer a:hover {
 
 #quote-button {
     margin: 0 auto;
-    line-height: 70px;
+    line-height: 4.375em;
     letter-spacing: 0.0625em;
 }
 
 /* contact page */
 
 #contact-heading {
-    padding-top: 100px;
+    margin: 0 auto;
+    padding-top: 6.25rem;
     text-align: center;
 }
 
 /* contact form */
 
 #contact-form {
-    margin: 0 20%;
+    width: 65%;
+    margin: 1.5625rem auto 0;
     text-align: left;
 }
 
@@ -568,20 +549,18 @@ footer a:hover {
 }
 
 #contact-form input {
-    margin: 10px 5px 20px 0;
+    margin: 0.625rem 0 1.25rem;
 }
 
 #contact-form textarea {
-    margin: 10px 0 20px;
-    padding-left: 5px;
+    margin: 0.625rem 0 1.25rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-text-input {
-    border: 3px groove #d0d2db;
-    line-height: 25px;
+    border: 0.1875rem groove #d0d2db;
+    line-height: 1.5625rem;
     width: 100%;
-    padding: 0 5px;
 }
 
 #form-submit {
@@ -592,32 +571,36 @@ footer a:hover {
 /* founders section */
 
 #founders {
-    margin-top: 4.6875rem;
-    text-align: center;
-    column-count: 2;
-    margin: 25px 20% 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
-.founders-column .descriptor-text {
+.founders-container .descriptor-text {
     color: #042e7d;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
-.founders-column {
-    text-align: center;
+.founders-container {
     display: block;
-    margin-bottom: 4.6875rem;
+    text-align: center;
+    width: 45%;
 }
 
 .founder-image-container {
-    width: 300px;
+    width: 18.75rem;
     border-radius: 50%;
     overflow: hidden;
-    margin: 25px auto;
+    margin: 1.5625rem auto;
 }
 
 .founder-image-container img {
-    height: 300px;
+    height: 18.75rem;
+}
+
+.founder-description {
+    height: 9rem;
 }
 
 .linkedin:hover {
@@ -628,21 +611,20 @@ footer a:hover {
 
 .linkedin {
     color: #042e7d;
-    margin: 25px 0 4.6875rem;
-    font-size: 250%;
+    font-size: 2.5rem;
 }
 
 /* track record */
 
-#track-record ul {
-    font-size: 150%;
+.checklist li {
+    max-lines: 1;
+    font-size: 2rem;
     font-weight: 800;
     text-align: center;
-    margin: 25px auto 4.6875rem;
-    line-height: 60px;
+    margin: 1.5625rem auto;
 }
 
-#track-record i {
+.checklist li i {
     font-size: 150%;
     vertical-align: sub;
     color: #042e7d;
@@ -654,12 +636,12 @@ footer a:hover {
         width: 50%;
     }
 
-    #project-gallery {
-        width: 100%;
+    .category-image-container img {
+        height: 15.625rem;
     }
 
-    .heading p {
-        width: 85%;
+    #project-gallery {
+        width: 100%;
     }
 
     .heading img {
@@ -687,6 +669,18 @@ footer a:hover {
     #quote-button {
         margin-top: 3rem;
     }
+
+    .founder-description {
+        height: 12rem;
+    }
+
+    .checklist li {
+        font-size: 1.65rem;
+    }
+
+    .checklist li i {
+        font-size: 1.75em;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -703,8 +697,12 @@ footer a:hover {
         width: 65%;
     }
 
-    .heading p {
+    .category-image-container {
         width: 85%;
+    }
+
+    .category-image-container img {
+        height: 12.5rem;
     }
 
     #abs-outer {
@@ -725,7 +723,7 @@ footer a:hover {
     }
 
     .category-image-container {
-        width: 60%;
+        width: 85%;
     }
 
     .gallery-image {
@@ -736,13 +734,8 @@ footer a:hover {
         width: 30%;
     }
 
-    #why-c-bird li {
-        line-height: 3rem;
-        font-size: 1.25rem;
-    }
-
-    #why-c-bird i {
-        font-size: 1.75rem;
+    .checklist li {
+        font-size: 1.2rem;
     }
 
     #nda {
@@ -762,6 +755,22 @@ footer a:hover {
 
     #quote-button {
         margin-top: 0;
+    }
+
+    #contact-form {
+        width: 85%;
+    }
+
+    .founder-image-container {
+        width: 15.625rem;
+    }
+
+    .founder-image-container img {
+        height: 15.625rem;
+    }
+
+    .founder-description {
+        height: 16rem;
     }
 
     footer ul {
@@ -791,6 +800,10 @@ footer a:hover {
         font-size: 0.7rem;
     }
 
+    small {
+        font-size: 0.6rem;
+    }
+
     .heading {
         padding-top: 3.25rem;
     }
@@ -801,8 +814,8 @@ footer a:hover {
 
     .job-container {
         width: 100%;
-        height: 25rem;
     }
+
 
     .descriptor-text {
         font-size: 1rem;
@@ -812,13 +825,8 @@ footer a:hover {
         width: 47.5%;
     }
 
-    #why-c-bird li {
-        line-height: 2.5rem;
-        font-size: 1rem;
-    }
-
-    #why-c-bird i {
-        font-size: 1.5rem;
+    .checklist li {
+        font-size: 0.7rem;
     }
 
     #nda {
@@ -855,6 +863,17 @@ footer a:hover {
         margin-top: 7rem;
     }
 
+    .founders-container {
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 1.5625rem;
+    }
+
+    .founder-description {
+        height: 13rem;
+    }
+
     footer ul {
         padding-top: 0.75%;
     }
@@ -880,21 +899,12 @@ footer a:hover {
         height: 25rem;
     }
 
-    .category-image-container {
-        height: 12.5rem;
-    }
-
-    #why-c-bird li {
-        font-size: 0.9rem;
-    }
-
-    #why-c-bird i {
-        font-size: 1.25rem;
+    .checklist li {
+        font-size: 0.6rem;
     }
 
     #platforms-and-solutions .descriptor-text {
         margin: 1.5625rem auto 0;
-        width: 75%;
     }
 
     #solution-image-container {
@@ -922,8 +932,31 @@ footer a:hover {
         margin-top: 6rem;
     }
 
+    .form-text-input {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .founder-description {
+        height: 16rem;
+    }
+
+    .founders-container {
+        width: 90%;
+        margin-bottom: 1.5625rem;
+    }
+
+    .founder-image-container {
+        width: 12.5rem;
+    }
+
+    .founder-image-container img {
+        height: 12.5rem;
+    }
+
     footer ul {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding-top: 1.5%;
     }
 
@@ -932,6 +965,6 @@ footer a:hover {
     }
 
     footer small {
-        font-size: 0.4rem;
+        font-size: 0.45rem;
     }
 }
