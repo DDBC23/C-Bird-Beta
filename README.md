@@ -57,3 +57,11 @@ This site has been created for the purposes of maintaining a web presence for C-
  - This gallery provides visual insight to the jobs C-Bird can perform and the high level of standards they maintain.
 
 ![C-Bird in Action](/assets/media/c-bird_gallery.png)
+
+- __Footer Bar__
+
+ - Featured on all 5 pages this includes the C-Bird logo image, a reactive link to C-Bird's Linkedin page in a separate tab, and to the C-Bird contact page followed by copyright information.
+
+ - The footer reinforces the C-Bird brand and provides easy navigation to the contact page and company's Linkedin page.
+
+![Footer Bar](/assets/media/site_footer.png)
