@@ -85,7 +85,7 @@ ul {
 }
 
 .heading a {
-    line-height: 2.1875em;
+    line-height: 2.3rem;
     margin: 1.5625rem auto 3.125rem;
 }
 
@@ -396,7 +396,7 @@ footer a:hover {
 /* --utm hull gauging page-- */
 
 #why-c-bird a {
-    margin: 1.5625rem auto 4.6875rem;
+    margin: 1.5625rem auto 3.125rem;
     line-height: 2.1875rem;
 }
 
@@ -542,7 +542,7 @@ footer a:hover {
 
 #quote-button {
     margin: 5rem auto 0;
-    line-height: 4.375em;
+    line-height: 4.5rem;
     letter-spacing: 0.0625em;
 }
 
@@ -550,8 +550,11 @@ footer a:hover {
 
 /* contact form */
 
+#contact-heading {
+    margin: 0 auto;
+}
+
 #contact-form {
-    width: 65%;
     margin: 1.5625rem auto 0;
     text-align: left;
 }
@@ -648,6 +651,10 @@ footer a:hover {
         width: 100%;
     }
 
+    .heading {
+        width: 70%;
+    }
+
     .heading img {
         width: 100%;
     }
@@ -698,7 +705,7 @@ footer a:hover {
     }
 
     .heading {
-        width: 65%;
+        width: 75%;
     }
 
     .category-image-container {
@@ -811,7 +818,15 @@ footer a:hover {
     }
 
     .heading {
+        width: 80%;
         padding-top: 3.25rem;
+    }
+
+    .button {
+        width: 7.03125rem;
+        height: 4.6875rem;
+        font-size: 0.8rem;
+        margin: auto 0;
     }
 
     #essence-outer img {
@@ -913,6 +928,7 @@ footer a:hover {
     }
 
     .heading {
+        width: 90%;
         padding-top: 3.25rem;
     }
 
