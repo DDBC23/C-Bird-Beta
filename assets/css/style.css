@@ -146,11 +146,9 @@ ul {
 .descriptor-text {
     font-size: 1.3rem;
     font-weight: 800;
-    margin: initial auto;
 }
 
 .checklist li {
-    max-lines: 1;
     font-size: 2rem;
     font-weight: 800;
     text-align: center;
