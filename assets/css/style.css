@@ -219,15 +219,15 @@ footer a:hover {
     overflow: hidden;
     background-color: #d0d2db;
     border-radius: 50%;
+    width: 5.625rem;
     height: 5.625rem;
-    max-width: 5.625rem;
     margin: 0 auto;
 }
 
 #footer-logo-bg img {
-    padding: 1.25rem 0 0.625rem 0.125rem;
-    height: auto;
-    width: 100%;
+    padding: 0.85rem 0 0 0.5rem;
+    height: 85%;
+    width: 85%;
 }
 
 /* --home page-- */
@@ -965,10 +965,6 @@ footer a:hover {
     footer ul {
         font-size: 1rem;
         padding-top: 1.5%;
-    }
-
-    #footer-logo-bg {
-        height: 80%;
     }
 
     footer small {
