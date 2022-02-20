@@ -71,7 +71,7 @@ ul {
 }
 
 .heading {
-    display: flexbox;
+    display: flex;
     flex-flow: column wrap;
     margin: 0 auto;
     padding-top: 6.25rem;
@@ -559,7 +559,7 @@ footer a:hover {
 }
 
 #contact-form {
-    margin: 1.5625rem auto 0;
+    margin-top: 1.5625rem;
     text-align: left;
 }
 
@@ -568,7 +568,7 @@ footer a:hover {
 }
 
 #contact-form input {
-    margin: 0.625rem 0 1rem;
+    margin: 0.625rem auto 1rem;
 }
 
 #contact-form .button {
