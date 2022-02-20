@@ -326,12 +326,11 @@ footer a:hover {
 
 #essence-outer {
     text-align: center;
-    margin: 0 5%;
+    margin: 0 auto;
 }
 
 #essence-outer img {
-    max-width: 100%;
-    height: auto;
+    width: 70%;
 }
 
 #client-quote {
@@ -640,6 +639,10 @@ footer a:hover {
         height: 15.625rem;
     }
 
+    #essence-outer img {
+        width: 80%;
+    }
+
     #project-gallery {
         width: 100%;
     }
@@ -709,8 +712,8 @@ footer a:hover {
         width: 45%;
     }
 
-    #essence-outer {
-        margin: 0;
+    #essence-outer img {
+        width: 90%;
     }
 
     .descriptor-text {
@@ -806,6 +809,10 @@ footer a:hover {
 
     .heading {
         padding-top: 3.25rem;
+    }
+
+    #essence-outer img {
+        width: 100%;
     }
 
     #abs-outer {
