@@ -290,7 +290,7 @@ footer a:hover {
     background-color: #d0d2db;
 }
 
-/* --home page-- */
+/* home page */
 
 /* home heading */
 
@@ -393,7 +393,9 @@ footer a:hover {
     border: 0.1875rem solid #d0d2db;
 }
 
-/* --utm hull gauging page-- */
+/* utm hull gauging page */
+
+/* why c-bird */
 
 #why-c-bird a {
     margin: 1.5625rem auto 3.125rem;
@@ -447,7 +449,9 @@ footer a:hover {
     font-weight: 800;
 }
 
-/* --close-up survey page-- */
+/* close-up survey page */
+
+/* survey heading */
 
 #survey-heading .descriptor-text {
     margin: 0 auto 1.5625rem;
