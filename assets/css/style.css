@@ -216,18 +216,15 @@ footer a:hover {
 
 #footer-logo-bg {
     display: flex;
-    overflow: hidden;
-    background-color: #d0d2db;
-    border-radius: 50%;
-    width: 5.625rem;
     height: 5.625rem;
     margin: 0 auto;
 }
 
 #footer-logo-bg img {
-    padding: 0.85rem 0 0 0.5rem;
-    height: 85%;
-    width: 85%;
+    margin: 0 auto;
+    border: #042e7d inset 0.1875rem;
+    border-radius: 10%;
+    background-color: #d0d2db;
 }
 
 /* --home page-- */
