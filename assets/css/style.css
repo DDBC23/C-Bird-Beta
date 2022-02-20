@@ -881,6 +881,9 @@ footer a:hover {
     footer ul {
         padding-top: 0.75%;
     }
+
+    #footer-logo-bg {
+        height: 4.21875rem;
 }
 
 @media screen and (max-width: 400px) {
@@ -963,6 +966,10 @@ footer a:hover {
         font-size: 1rem;
         padding-top: 1.5%;
     }
+
+    #footer-logo-bg {
+        height: 3.375rem;
+}
 
     footer small {
         font-size: 0.45rem;
