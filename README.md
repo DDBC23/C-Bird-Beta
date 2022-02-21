@@ -166,3 +166,23 @@ This site has been created for the purposes of maintaining a web presence for C-
 
  - Add infographic of global locations C-Bird have worked previously.
 
+## Testing
+
+### Google Lighthouse Testing
+
+- Performance
+  - Above 95 site wide for both desktop and mobile tests.
+- Accessibility
+  - 100 site wide for both desktop and mobile tests.
+- Best Practices
+  - 100 site wide for both desktop and mobile tests.
+- SEO
+  - 100 site wide for both desktop and mobile tests.
+
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
