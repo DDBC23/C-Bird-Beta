@@ -121,3 +121,35 @@ This site has been created for the purposes of maintaining a web presence for C-
  - The logo further reinforces brand imaging and the description instills additional confidence in C-Bird's capabilities.
 
 ![Consultancy Header](/assets/media/consultancy_header.png)
+
+- __Consultancy Categories__
+
+ - This section includes 4 consultancy categories with pictures and descriptions which adapt layout based on screen sizing as well as a button leading the user to the contact page"
+
+ - This section helps address multiple potential clients and details what C-Bird can provide for them followed by a direct link to contact the company.
+
+![Consultancy Categories](/assets/media/consultancy_categories.png)
+
+- __Contact Header & Form__
+
+ - This header includes a form section allowing the user to pass on their details, request type and choose to receive a follow up call from C-Bird. A notification is received by the user once they have submitted the form.
+
+ - This provides direct contact with C-Bird for any further enquiries and does not include the standard heading logo so as to directly lead users to means of contact when lead to this page through various buttons and links.
+
+![Contact Heading](/assets/media/contact_heading.png)
+
+- __Founders__
+
+ - This section has an adapative layout based on screen size and includes the founders names and positions and photos, a quick occupational history for their field and a link to their respective Linkedin pages.
+
+ - This section lets the user see who C-Bird are and showcase the founders' expertise in the field while also providing documentation and means of contact for each founder.
+
+![Founders](/assets/media/founders.png)
+
+- __Track Record__
+
+ - This section briefly summarizes key points about both C-Bird and the founders' experience and expertise.
+
+ - These key points further instill confidence in C-Bird's capabilities by showcasing the founders' accolades.
+
+![Track Record](/assets/media/track_record.png)
