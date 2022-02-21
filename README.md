@@ -153,3 +153,16 @@ This site has been created for the purposes of maintaining a web presence for C-
  - These key points further instill confidence in C-Bird's capabilities by showcasing the founders' accolades.
 
 ![Track Record](/assets/media/track_record.png)
+
+### Features Left to Implement
+
+ - Add additional recognize by logos once material received from C-Bird.
+
+ - Update several images site wide to avoid repeat usage.
+
+ - Recreate and improve C-Bird essence infographic.
+
+ - Add 'About' page once additional material received from C-Bird.
+
+ - Add infographic of global locations C-Bird have worked previously.
+
