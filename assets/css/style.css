@@ -404,14 +404,14 @@ footer a:hover {
     line-height: 2.1875rem;
 }
 
-/* technology */
+/* early bird sign-up */
 
-#technology {
+#early-bird {
     text-align: center;
     margin-bottom: 3.125rem;
 }
 
-#technology p {
+#early-bird p {
     margin: 1.5625rem auto 1.5625rem;
     max-width: 80%;
 }
@@ -468,7 +468,8 @@ footer a:hover {
 }
 
 #platforms-and-solutions .descriptor-text {
-    margin: 1.5625rem auto 0;
+    margin: 0 auto;
+    width: 70%;
 }
 
 #solution-image-container {

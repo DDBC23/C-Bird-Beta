@@ -65,3 +65,59 @@ This site has been created for the purposes of maintaining a web presence for C-
  - The footer reinforces the C-Bird brand and provides easy navigation to the contact page and company's Linkedin page.
 
 ![Footer Bar](/assets/media/site_footer.png)
+
+- __Hull Gauging Heading__
+
+ - Includes C-Bird logo with page and section titling, a drone footage photo of hull gauging with descriptive blurb and a reactive button that leads to the contact page.
+
+ - The logo reinforces brand imaging and the footage photo provides insight to how C-Bird perform hull gauging. The button prompts the user to contact C-Bird by means of the contact page.
+
+![Hull Gauging Heading](/assets/media/hull_gauging_heading.png)
+
+- __Why C-Bird__
+
+ - This section briefly showcases the unique strengths of the work C-Bird perform and includes another brochure button that opens in a separate tab.
+
+ - These bullet points neatly summarize important benefits to clients and the button allows immediate access to the brochure to follow up on these points.
+
+![Why C-Bird](/assets/media/why_c-bird.png)
+
+- __Early Bird__
+
+ - This section features a prompt to contact C-Bird, a uniquely styled button with interactive borders that leads to the contact page and an NDA disclaimer that is uniquely emphasized.
+
+ - This further prompts the user to contact C-Bird with an explanation of how to learn more and adds further brand reinforcement with the logo button and associated wordplay.
+
+![Early Bird](/assets/media/early_bird.png)
+
+- __Close-up Survey Heading__
+
+ - This section features the C-Bird logo and a photo of drone footage performing a close-up survey with summary text.
+
+ - The logo reinforces brand imaging for the user while the drone footage photo shows a real life example of the work in progress paired with text on C-Bird's track record.
+
+![Close-up Heading](/assets/media/close-up_heading.png)
+
+- __Survey Categories__
+
+ - This section features the 3 main categories of close-up surveys with a title, picture and description of each using an adaptive layout based on viewing size.
+
+ - These categories showcase what jobs C-Bird are capable of and proves an understanding for each job type through the descriptions and photos of previous work.
+
+![Survey Categories](/assets/media/survey_categories.png)
+
+- __Platforms & Solutions__
+
+- This section describes C-Bird's origin and focus on robotic solutions featuring an image of 3 drone types used, text explaining how they are used and what benefit they provide.
+
+- This section briefly shows the strengths of C-Bird and the hardware they use while also showing what drives the company.
+
+![Platforms and Solutions](/assets/media/platforms_and_solutions.png)
+
+- __Consultancy Header__
+
+ - This heading maintains the logo placement across the site and provides a short description of C-Bird's experience and accolades.
+
+ - The logo further reinforces brand imaging and the description instills additional confidence in C-Bird's capabilities.
+
+![Consultancy Header](/assets/media/consultancy_header.png)
