@@ -498,6 +498,7 @@ footer a:hover {
 }
 
 .solution-container h3 {
+    margin-bottom: 0.7625rem;
     color: #042e7d;
 }
 
@@ -577,7 +578,7 @@ footer a:hover {
 }
 
 #contact-form .button {
-    margin-bottom: 0.5625rem;
+    margin: 0.5625rem 0;
 }
 
 #contact-form textarea {
@@ -676,6 +677,10 @@ footer a:hover {
         width: 60%;
     }
 
+    .solution-container p {
+        margin: 0 10%;
+    }
+
     .consultancy-container {
         height: 30rem;
     }
@@ -769,7 +774,7 @@ footer a:hover {
     }
 
     .solution-container p {
-        margin: 0 7.5%;
+        margin: 0 5%;
     }
 
     .consultancy-container {

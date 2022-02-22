@@ -206,4 +206,23 @@ This has been tested thoroughly using Chrome's inspection tools to identify brea
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
  - In the GitHub repository, navigate to the Settings tab
  - From the General section, navigate to 'Pages' under the Code and automation heading
- -
+ - Select Main from the drop-down Branch menu and press save
+ - Once saved the page will be refreshed and advise that the site is ready to be deployed and provide a URL for the page
+ - Refresh this page after a few minutes and a green background and confirmation tick will advise the site has been deployed successfully.
+
+The live link can be found here - https://ddbc23.github.io/C-Bird-Beta/
+
+## Credits
+
+### Content
+
+- All text provided by C-Bird and C-Bird founders - [Malcolm Connolly](https://www.linkedin.com/in/malcolm-connolly-9a4b6613/) and [Salvis Bralitis](https://www.linkedin.com/in/salvis-bralitis-9652972b/)
+- Logo zoom animation code copied from [Code Institute - Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- Form onsubmit alert code provided by [Caleb Mbakwe](https://github.com/caleboau2012)
+- Button text shadow CSS code copied from [Stackoverflow answer](https://stackoverflow.com/questions/4919076/outline-effect-to-text?lq=1)
+- Linkedin and checkmark icons were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- All photography and drone arsenal compilation image provided by C-Bird and C-Bird founders - [Malcolm Connolly](https://www.linkedin.com/in/malcolm-connolly-9a4b6613/) and [Salvis Bralitis](https://www.linkedin.com/in/salvis-bralitis-9652972b/)
+- ABS logo provided by [American Bureau of Shipping (ABS)](https://ww2.eagle.org/en.html)
