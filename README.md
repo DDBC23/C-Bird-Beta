@@ -226,3 +226,4 @@ The live link can be found here - https://ddbc23.github.io/C-Bird-Beta/
 
 - All photography and drone arsenal compilation image provided by C-Bird and C-Bird founders - [Malcolm Connolly](https://www.linkedin.com/in/malcolm-connolly-9a4b6613/) and [Salvis Bralitis](https://www.linkedin.com/in/salvis-bralitis-9652972b/)
 - ABS logo provided by [American Bureau of Shipping (ABS)](https://ww2.eagle.org/en.html)
+- Site mockup image generated through [Am I Responsive?](http://ami.responsivedesign.is/)
