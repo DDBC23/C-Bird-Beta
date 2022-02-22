@@ -179,6 +179,15 @@ This site has been created for the purposes of maintaining a web presence for C-
 - SEO
   - 100 site wide for both desktop and mobile tests.
 
+## Testing
+
+This site features multiple links to navigate between
+
+This project was created initially for desktop viewing sizes using pre-approved text content, infographics and images supplied directly by C-Bird. Once the general layout was established for the site it became apparent that this would require significant adjustments for smaller screen sizes to prevent legibility issues for text, pixelation for images and to maintain user friendly content flow and navigation of the site.
+
+With these key points in mind, this site features an adaptive layout for multiple sections across the site, including font size adjustments, to allow for clear groupings of information and a clean and professional visual appearance. These layouts have been implemented primarily for all viewing sizes between 320px and 1900px wide screens but should be functional for widescreen viewing as well.
+
+This has been tested thoroughly using Chrome's inspection tools to identify breakpoints on various viewing sizes followed by further inspection of the site through a secondary desktop, laptop, tablet and mobile phone to confirm any applicable media queries. 
 
 ### Validator Testing 
 
