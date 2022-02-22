@@ -75,7 +75,6 @@ ul {
     flex-flow: column wrap;
     margin: 0 auto;
     padding-top: 6.25rem;
-    /* width: 50%; */
     text-align: center;
 }
 
@@ -170,6 +169,7 @@ ul {
     font-weight: 600;
     text-align: center;
     color: white;
+    /* original code source and accrediting in readme */
     text-shadow: -0.0625em -0.0625em #3a3a3a, 0.0625em -0.0625em #3a3a3a, -0.0625em 0.0625em #3a3a3a, 0.0625em 0.0625em #3a3a3a;
     text-transform: uppercase;
     display: block;
@@ -302,7 +302,8 @@ footer a:hover {
     margin-top: 1.5625rem;
     max-height: 21.875rem;
     object-fit: contain;
-
+    
+    /* original code source and accrediting in readme */
     /* animates home heading logo */
 
     animation-name: logo-zoom;
@@ -310,6 +311,7 @@ footer a:hover {
     animation-fill-mode: forwards;
 }
 
+/* original code source and accrediting in readme */
 /* creates the level of zoom for hero image */
 @keyframes logo-zoom {
     from {
@@ -649,6 +651,14 @@ footer a:hover {
 
 @media screen and (max-width: 1330px) {
 
+    .heading img {
+        height: 20rem;
+    }
+
+    .heading .descriptor-text {
+        width: 50%;
+    } 
+
     .job-container {
         width: 50%;
     }
@@ -657,21 +667,17 @@ footer a:hover {
         height: 15.625rem;
     }
 
+    .checklist li {
+        font-size: 1.65rem;
+    }
+
     #essence-outer img {
         width: 80%;
     }
 
     #project-gallery {
         width: 100%;
-    }
-
-    .heading img {
-        height: 20rem;
-    }
-
-    .heading .descriptor-text {
-        width: 50%;
-    }    
+    }   
 
     #nda {
         width: 60%;
@@ -700,19 +706,11 @@ footer a:hover {
     .founder-description {
         height: 12rem;
     }
-
-    .checklist li {
-        font-size: 1.65rem;
-    }
 }
 
 /* media queries for medium screens */
 
 @media screen and (max-width: 900px) {
-
-    header ul {
-        font-size: 1.05rem;
-    }
 
     h2 {
         font-size: 1.6rem;
@@ -726,24 +724,12 @@ footer a:hover {
         width: 70%;
     }
 
-    .category-image-container {
-        width: 85%;
-    }
-
-    .category-image-container img {
-        height: 12.5rem;
-    }
-
-    #abs-outer {
-        width: 45%;
-    }
-
-    #essence-outer img {
-        width: 90%;
-    }
-
     .descriptor-text {
         font-size: 1.04rem
+    }
+
+    .checklist li {
+        font-size: 1.2rem;
     }
 
     .job-container {
@@ -754,6 +740,26 @@ footer a:hover {
     .category-image-container {
         width: 85%;
     }
+    
+    .category-image-container img {
+        height: 12.5rem;
+    }
+    
+    header ul {
+        font-size: 1.05rem;
+    }
+
+    footer ul {
+        padding-top: 0.5%
+    }
+
+    #abs-outer {
+        width: 45%;
+    }
+
+    #essence-outer img {
+        width: 90%;
+    }
 
     .gallery-image {
         width: 45%;
@@ -761,10 +767,6 @@ footer a:hover {
 
     .thin-gallery-image {
         width: 30%;
-    }
-
-    .checklist li {
-        font-size: 1.2rem;
     }
 
     #nda {
@@ -801,10 +803,6 @@ footer a:hover {
     .founder-description {
         height: 16rem;
     }
-
-    footer ul {
-        padding-top: 0.5%
-    }
 }
 
 /* media queries for medium to small screens */
@@ -823,14 +821,6 @@ footer a:hover {
         font-size: 1.3rem;
     }
 
-    header {
-        height: 4.6875rem;
-    }
-
-    header ul {
-        font-size: 0.75rem;
-    }
-
     small {
         font-size: 0.6rem;
     }
@@ -847,21 +837,6 @@ footer a:hover {
         width: 90%;
     } 
 
-    .button {
-        width: 7.03125rem;
-        height: 4.6875rem;
-        font-size: 0.8rem;
-        margin: auto 0;
-    }
-
-    #essence-outer img {
-        width: 100%;
-    }
-
-    #abs-outer {
-        width: 60%;
-    }
-
     .job-container {
         width: 100%;
         height: 23rem;
@@ -871,12 +846,45 @@ footer a:hover {
         font-size: 1rem;
     }
 
-    .gallery-image {
-        width: 47.5%;
-    }
-
     .checklist li {
         font-size: 0.75rem;
+    }
+
+    .button {
+        width: 7.03125rem;
+        height: 4.6875rem;
+        font-size: 0.8rem;
+        margin: auto 0;
+    }
+    
+    header {
+        height: 4.6875rem;
+    }
+
+    header ul {
+        font-size: 0.75rem;
+    }
+
+    footer ul {
+        font-size: 1rem;
+        padding-top: 0.75%;
+    }
+
+    #footer-logo-bg img {
+        margin: auto;
+        height: 4.21875rem;
+    }
+    
+    #essence-outer img {
+        width: 100%;
+    }
+
+    #abs-outer {
+        width: 60%;
+    }
+
+    .gallery-image {
+        width: 47.5%;
     }
 
     #nda {
@@ -911,12 +919,12 @@ footer a:hover {
         margin: 0 2.5%;
     }
 
-    #contact-heading h1 {
-        margin-top: 1.5625rem;
-    }
-
     #quote-button {
         margin-top: 5rem;
+    }
+
+    #contact-heading h1 {
+        margin-top: 1.5625rem;
     }
 
     .founders-container {
@@ -929,16 +937,6 @@ footer a:hover {
     .founder-description {
         height: 13rem;
     }
-
-    footer ul {
-        font-size: 1rem;
-        padding-top: 0.75%;
-    }
-
-    #footer-logo-bg img {
-        margin: auto;
-        height: 4.21875rem;
-    }
 }
 
 /* media queries for mobile devices */
@@ -947,11 +945,6 @@ footer a:hover {
 
     h1 {
         font-size: 2rem;
-    }
-
-    header ul {
-        font-size: 0.60rem;
-        margin: 0;
     }
 
     .heading {
@@ -970,6 +963,24 @@ footer a:hover {
 
     .checklist li {
         font-size: 0.6rem;
+    }
+
+    header ul {
+        font-size: 0.60rem;
+        margin: 0;
+    }
+    
+    footer ul {
+        font-size: 1rem;
+        padding-top: 1.5%;
+    }
+
+    #footer-logo-bg img {
+        height: 3.375rem;
+    }
+
+    footer small {
+        font-size: 0.475rem;
     }
 
     #platforms-and-solutions .descriptor-text {
@@ -1023,18 +1034,5 @@ footer a:hover {
 
     .founder-image-container img {
         height: 8rem;
-    }
-
-    footer ul {
-        font-size: 1rem;
-        padding-top: 1.5%;
-    }
-
-    #footer-logo-bg img {
-        height: 3.375rem;
-    }
-
-    footer small {
-        font-size: 0.475rem;
     }
 }
