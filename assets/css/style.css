@@ -96,7 +96,7 @@ ul {
     border: 0.1875em solid #d0d2db;
 }
 
-.heading p {
+.heading .descriptor-text {
     width: 47.5%;
     margin: 0 auto;
 }
@@ -667,7 +667,7 @@ footer a:hover {
         height: 20rem;
     }
 
-    .heading p {
+    .heading .descriptor-text {
         width: 50%;
     }    
 
@@ -712,15 +712,11 @@ footer a:hover {
         font-size: 1.6rem;
     }
 
-    .heading {
-        width: 75%;
-    }
-
     .heading img {
         height: 15rem;
     }
 
-    .heading p {
+    .heading .descriptor-text {
         width: 70%;
     }
 
@@ -785,7 +781,7 @@ footer a:hover {
     }
 
     #contact-form {
-        width: 85%;
+        width: 75%;
     }
 
     .founder-image-container {
@@ -840,6 +836,10 @@ footer a:hover {
     .heading img {
         height: 10.5rem;
     }
+
+    .heading .descriptor-text {
+        width: 90%;
+    } 
 
     .button {
         width: 7.03125rem;
@@ -954,10 +954,6 @@ footer a:hover {
     .heading img {
         height: 9.5rem;
     }
-
-    .heading p {
-        width: 90%;
-    }  
 
     .job-container {
         width: 100%;

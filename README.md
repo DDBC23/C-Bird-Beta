@@ -189,4 +189,4 @@ This site has been created for the purposes of maintaining a web presence for C-
 
 ### Known Faults
 
-- Border radius on Malcolm Connolly skewed due to image dimensions and top cutoff.
+- Border radius on Malcolm Connolly image skewed due to image dimensions and top cutoff.
